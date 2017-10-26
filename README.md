@@ -1,5 +1,4 @@
 # The Darknet Weathermap Suite
-[Darknet Weathermap](https://gitlab.risc.anl.gov/Darknet/Darknet_Weathermap)
 
 This project contains several tools for scraping a vast amount of web sites and processing the downloaded HTML, with the intention of classifying the crawled domains automatically and eventually generating real-time content reports.
 
@@ -85,13 +84,6 @@ sudo apt-get install tor
 There is an easier way to install all necessary Python packages at once. Find pyreqs.txt within the top of the project, and run:
 
 `pip install -r pyreqs.txt`
-
-To clone the project, navigate to a chosen directory and run:
-
-```
-git clone git@gitlab.risc.anl.gov:Darknet/Darknet_Weathermap.git .
-```
-
 
 
 
