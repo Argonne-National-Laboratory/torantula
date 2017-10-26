@@ -1,5 +1,7 @@
 # The Darknet Weathermap Suite
 [Darknet Weathermap](https://gitlab.risc.anl.gov/Darknet/Darknet_Weathermap)
+![torantula logo](torantula-logo.png)
+
 
 This project contains several tools for scraping a vast amount of web sites and processing the downloaded HTML, with the intention of classifying the crawled domains automatically and eventually generating real-time content reports.
 
