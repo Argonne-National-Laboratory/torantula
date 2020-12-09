@@ -73,7 +73,7 @@ class DarkSpider(CrawlSpider):
     rules = (Rule(LxmlLinkExtractor(allow=[r'.+\.(com|org|net|).*'],
                     deny=[r'.+\.(jpg|png|pdf|mp4|mp3|zip| \
                         torrent|mov|gif|txt|csv|webm|epub)'],
-                    deny_domains=dcount.get_ignored_domains(),  # does this work?
+                    deny_domains=dcount.get_ignored_domains(),
                     unique=True),
                 callback='parse_item',
                 process_links='process_links',
