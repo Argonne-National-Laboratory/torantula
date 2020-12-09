@@ -2,9 +2,10 @@ import random
 import logging
 
 from urlparse import urlparse
-from scrapy.conf import settings
 from scrapy.exceptions import IgnoreRequest
 
+from scrapy.utils.project import get_project_settings
+settings = get_project_settings()
 """
 These middlewares are specified in settings, and called by the spider for each
 outgoing request generated between the engine and the downloader.
