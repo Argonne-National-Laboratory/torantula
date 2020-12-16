@@ -1,0 +1,10 @@
+2020-12-10 17:47:16 [scrapy.utils.log] INFO: Scrapy 1.8.0 started (bot: Clearscrape)
+2020-12-10 17:47:16 [scrapy.utils.log] INFO: Versions: lxml 3.8.0.0, libxml2 2.9.3, cssselect 1.0.1, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 2.7.18rc1 (default, Apr  7 2020, 12:05:55) - [GCC 9.3.0], pyOpenSSL 19.1.0 (OpenSSL 1.1.1h  22 Sep 2020), cryptography 3.1.1, Platform Linux-5.4.0-56-generic-x86_64-with-Ubuntu-20.04-focal
+2020-12-10 17:47:16 [scrapy.crawler] INFO: Overridden settings: {'AUTOTHROTTLE_MAX_DELAY': 3, 'AUTOTHROTTLE_TARGET_CONCURRENCY': 2.0, 'AJAXCRAWL_ENABLED': True, 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 1, 'LOG_LEVEL': 'INFO', 'RETRY_ENABLED': False, 'DOWNLOAD_TIMEOUT': 60, 'DEPTH_PRIORITY': 1, 'SCHEDULER_MEMORY_QUEUE': 'scrapy.squeues.FifoMemoryQueue', 'SCHEDULER_DISK_QUEUE': 'scrapy.squeues.PickleFifoDiskQueue', 'BOT_NAME': 'Clearscrape', 'CONCURRENT_REQUESTS': 120, 'SPIDER_MODULES': ['Clearscrape.spiders'], 'AUTOTHROTTLE_START_DELAY': 0.75, 'AUTOTHROTTLE_ENABLED': True, 'TELNETCONSOLE_PORT': [6023], 'REDIRECT_ENABLED': False, 'LOG_FILE': 'roland.log', 'AUTOTHROTTLE_DEBUG': True, 'NEWSPIDER_MODULE': 'Clearscrape.spiders', 'DEPTH_LIMIT': 2, 'CONCURRENT_REQUESTS_PER_DOMAIN': 15, 'REACTOR_THREADPOOL_MAXSIZE': 20}
+2020-12-10 17:47:16 [scrapy.extensions.telnet] INFO: Telnet Password: 6717cf6ab74561a9
+2020-12-10 17:47:16 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.throttle.AutoThrottle',
+ 'scrapy.extensions.telnet.TelnetConsole']

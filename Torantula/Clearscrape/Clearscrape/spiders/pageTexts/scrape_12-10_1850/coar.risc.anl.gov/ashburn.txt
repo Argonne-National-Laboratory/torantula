@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://coar.risc.anl.gov/xmlrpc.php" />
+<title>Internet Infrastructure &#8211; Cyber Operations, Analysis, and Research</title>
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Cyber Operations, Analysis, and Research &raquo; Feed" href="https://coar.risc.anl.gov/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/coar.risc.anl.gov\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.6"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://coar.risc.anl.gov/wp-includes/css/dist/block-library/style.min.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='https://coar.risc.anl.gov/wp-includes/css/dist/block-library/theme.min.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://coar.risc.anl.gov/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-standard-css-css'  href='//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/flick/jquery-ui.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='pc_google_analytics-frontend-css'  href='https://coar.risc.anl.gov/wp-content/plugins/pc-google-analytics/assets/css/frontend.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_fonts-css'  href='https://coar.risc.anl.gov/wp-content/plugins/photo-gallery/css/bwg-fonts/fonts.css?ver=0.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='sumoselect-css'  href='https://coar.risc.anl.gov/wp-content/plugins/photo-gallery/css/sumoselect.min.css?ver=3.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='mCustomScrollbar-css'  href='https://coar.risc.anl.gov/wp-content/plugins/photo-gallery/css/jquery.mCustomScrollbar.min.css?ver=1.5.65' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_frontend-css'  href='https://coar.risc.anl.gov/wp-content/plugins/photo-gallery/css/styles.min.css?ver=1.5.65' type='text/css' media='all' />
+<link rel='stylesheet' id='wpsm_team_b-font-awesome-front-css'  href='https://coar.risc.anl.gov/wp-content/plugins/team-builder/assets/css/font-awesome/css/font-awesome.min.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='wpsm_team_b_bootstrap-front-css'  href='https://coar.risc.anl.gov/wp-content/plugins/team-builder/assets/css/bootstrap-front.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='wpsm_team_b_team-css'  href='https://coar.risc.anl.gov/wp-content/plugins/team-builder/assets/css/team.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='team_manager-normalize-css-css'  href='https://coar.risc.anl.gov/wp-content/plugins/team-showcase/css/normalize.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='team_manager-awesome-css-css'  href='https://coar.risc.anl.gov/wp-content/plugins/team-showcase/css/font-awesome.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='team_manager-featherlight-css-css'  href='https://coar.risc.anl.gov/wp-content/plugins/team-showcase/css/featherlight.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='team_manager-style1-css-css'  href='https://coar.risc.anl.gov/wp-content/plugins/team-showcase/css/style1.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='tlp-owl-carousel-css'  href='https://coar.risc.anl.gov/wp-content/plugins/tlp-team/assets/vendor/owl-carousel/assets/owl.carousel.min.css?ver=2.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='tlp-owl-carousel-theme-css'  href='https://coar.risc.anl.gov/wp-content/plugins/tlp-team/assets/vendor/owl-carousel/assets/owl.theme.default.min.css?ver=2.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='tlp-fontawsome-css'  href='https://coar.risc.anl.gov/wp-content/plugins/tlp-team/assets/vendor/font-awesome/css/font-awesome.min.css?ver=2.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='tlp-team-css'  href='https://coar.risc.anl.gov/wp-content/plugins/tlp-team/assets/css/tlpteam.css?ver=2.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='uaf_client_css-css'  href='https://coar.risc.anl.gov/wp-content/uploads/useanyfont/uaf.css?ver=1578290407' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css'  href='https://coar.risc.anl.gov/wp-content/themes/accelerate/style.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-css'  href='https://coar.risc.anl.gov/wp-content/themes/accelerate/animate.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='https://coar.risc.anl.gov/wp-content/themes/accelerate/bootstrap.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='rrap-css'  href='https://coar.risc.anl.gov/wp-content/themes/accelerate/rrap.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='accelerate_style-css'  href='https://coar.risc.anl.gov/wp-content/themes/accelerate-child/style.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='accelerate_googlefonts-css'  href='//fonts.googleapis.com/css?family=Roboto%3A400%2C300%2C100%7CRoboto+Slab%3A700%2C400&#038;ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='accelerate-fontawesome-css'  href='https://coar.risc.anl.gov/wp-content/themes/accelerate/fontawesome/css/font-awesome.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://coar.risc.anl.gov/wp-content/plugins/css/default.min.css?ver=1.8' type='text/css' media='all' />
+<style id='tablepress-default-inline-css' type='text/css'>
+.tablepress-id-1 .column-1,.tablepress-id-1 .column-2,.tablepress-id-1 .column-3,.tablepress-id-1 .column-4{text-align:center;vertical-align:middle;width:100px}.tablepress thead th,.tablepress tfoot th{background-color:#b3b3b3;color:#000}
+</style>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-content/plugins/pc-google-analytics/assets/js/frontend.min.js?ver=1.0.0' id='pc_google_analytics-frontend-js'></script>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-content/plugins/photo-gallery/js/jquery.sumoselect.min.js?ver=3.0.3' id='sumoselect-js'></script>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-content/plugins/photo-gallery/js/jquery.mobile.min.js?ver=1.3.2' id='jquery-mobile-js'></script>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-content/plugins/photo-gallery/js/jquery.mCustomScrollbar.concat.min.js?ver=1.5.65' id='mCustomScrollbar-js'></script>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-content/plugins/photo-gallery/js/jquery.fullscreen-0.4.1.min.js?ver=0.4.1' id='jquery-fullscreen-js'></script>
+<script type='text/javascript' id='bwg_frontend-js-extra'>
+/* <![CDATA[ */
+var bwg_objectsL10n = {"bwg_field_required":"field is required.","bwg_mail_validation":"This is not a valid email address.","bwg_search_result":"There are no images matching your search.","bwg_select_tag":"Select Tag","bwg_order_by":"Order By","bwg_search":"Search","bwg_show_ecommerce":"Show Ecommerce","bwg_hide_ecommerce":"Hide Ecommerce","bwg_show_comments":"Show Comments","bwg_hide_comments":"Hide Comments","bwg_restore":"Restore","bwg_maximize":"Maximize","bwg_fullscreen":"Fullscreen","bwg_exit_fullscreen":"Exit Fullscreen","bwg_search_tag":"SEARCH...","bwg_tag_no_match":"No tags found","bwg_all_tags_selected":"All tags selected","bwg_tags_selected":"tags selected","play":"Play","pause":"Pause","is_pro":"","bwg_play":"Play","bwg_pause":"Pause","bwg_hide_info":"Hide info","bwg_show_info":"Show info","bwg_hide_rating":"Hide rating","bwg_show_rating":"Show rating","ok":"Ok","cancel":"Cancel","select_all":"Select all","lazy_load":"0","lazy_loader":"https:\/\/coar.risc.anl.gov\/wp-content\/plugins\/photo-gallery\/images\/ajax_loader.png","front_ajax":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-content/plugins/photo-gallery/js/scripts.min.js?ver=1.5.65' id='bwg_frontend-js'></script>
+<script type='text/javascript' id='ajax-script-js-extra'>
+/* <![CDATA[ */
+var my_ajax_object = {"ajax_url":"https:\/\/coar.risc.anl.gov\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-content/plugins/team-showcase-supreme/assets/js/ajaxdata.js?ver=5.6' id='ajax-script-js'></script>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-content/plugins/team-showcase/js/modernizr.custom.js?ver=1.0' id='team_manager-modernizer-js'></script>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-content/plugins/team-showcase/js/classie.js?ver=1.0' id='team_manager-classie-js'></script>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-content/plugins/team-showcase/js/featherlight.js?ver=1.0' id='team_manager-featherlight-js'></script>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-content/plugins/team-showcase/js/main.js?ver=1.0' id='team_manager-main-js'></script>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-content/themes/accelerate/js/accelerate-custom.js?ver=5.6' id='accelerate-custom-js'></script>
+<!--[if lte IE 8]>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-content/themes/accelerate/js/html5shiv.js?ver=3.7.3' id='html5shiv-js'></script>
+<![endif]-->
+<link rel="https://api.w.org/" href="https://coar.risc.anl.gov/wp-json/" /><link rel="alternate" type="application/json" href="https://coar.risc.anl.gov/wp-json/wp/v2/pages/674" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://coar.risc.anl.gov/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://coar.risc.anl.gov/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.6" />
+<link rel="canonical" href="https://coar.risc.anl.gov/ashburn-va-regional-resiliency-assessment/" />
+<link rel='shortlink' href='https://coar.risc.anl.gov/?p=674' />
+<link rel="alternate" type="application/json+oembed" href="https://coar.risc.anl.gov/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcoar.risc.anl.gov%2Fashburn-va-regional-resiliency-assessment%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://coar.risc.anl.gov/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcoar.risc.anl.gov%2Fashburn-va-regional-resiliency-assessment%2F&#038;format=xml" />
+<link type="text/css" rel="stylesheet" href="https://coar.risc.anl.gov/wp-content/plugins/category-specific-rss-feed-menu/wp_cat_rss_style.css" />
+<script type="text/javascript">
+jQuery(document).ready(function() {
+  jQuery.ajaxSetup({ cache: false });
+});
+function loadStatus() {
+  jQuery.getJSON("/wp-content/status.json", function(status) {
+	//var status = jQuery.parseJSON(data);
+	var ourHtml = "";
+	status.hosts.sort();
+	for (i=0; i<status.hosts.length; i++) {
+	  if (status.hosts[i] == status.live) {
+		ourHtml += "<span class='live host'>→ "+status.hosts[i]+"</span><br />";
+	  } else {
+		ourHtml += "<span class='host'>"+status.hosts[i]+"</span><br />";
+	  }
+	}
+	if (window.live != status.live) {
+	  jQuery("#more-mtd-content").html(ourHtml);
+	  console.log("more-mtd last live: "+status.live);
+	  window.live = status.live;
+	}
+
+  });
+}
+loadStatus();
+setInterval(function() {loadStatus() }, 2000);
+</script>
+<style type="text/css">
+.ui-widget {
+font-family: inherit;
+font-size: inherit;
+}
+.ui-accordion-header {
+  background: transparent;
+  border: 0px;
+}
+
+.ui-accordion-content {
+  border: 0px;
+  font-size: 10pt;
+}
+</style>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+		ga('create', 'UA-56674559-1', 'auto');
+		ga('send', 'pageview');
+		
+		</script>
+<style type='text/css'>.tlp-team .short-desc, .tlp-team .tlp-team-isotope .tlp-content, .tlp-team .button-group .selected, .tlp-team .layout1 .tlp-content, .tlp-team .tpl-social a, .tlp-team .tpl-social li a.fa {background: #0367bf}</style>		<style type="text/css"> .accelerate-button,blockquote,button,input[type=button],input[type=reset],input[type=submit]{background-color:#00629b}a{color:#00629b}#page{border-top:3px solid #00629b}#site-title a:hover{color:#00629b}#search-form span,.main-navigation a:hover,.main-navigation ul li ul li a:hover,.main-navigation ul li ul li:hover>a,.main-navigation ul li.current-menu-ancestor a,.main-navigation ul li.current-menu-item a,.main-navigation ul li.current-menu-item ul li a:hover,.main-navigation ul li.current_page_ancestor a,.main-navigation ul li.current_page_item a,.main-navigation ul li:hover>a,.main-small-navigation li:hover > a{background-color:#00629b}.site-header .menu-toggle:before{color:#00629b}.main-small-navigation li:hover{background-color:#00629b}.main-small-navigation ul>.current-menu-item,.main-small-navigation ul>.current_page_item{background:#00629b}.footer-menu a:hover,.footer-menu ul li.current-menu-ancestor a,.footer-menu ul li.current-menu-item a,.footer-menu ul li.current_page_ancestor a,.footer-menu ul li.current_page_item a,.footer-menu ul li:hover>a{color:#00629b}#featured-slider .slider-read-more-button,.slider-title-head .entry-title a{background-color:#00629b}a.slide-prev,a.slide-next,.slider-title-head .entry-title a{background-color:#00629b}#controllers a.active,#controllers a:hover{background-color:#00629b;color:#00629b}.format-link .entry-content a{background-color:#00629b}#secondary .widget_featured_single_post h3.widget-title a:hover,.widget_image_service_block .entry-title a:hover{color:#00629b}.pagination span{background-color:#00629b}.pagination a span:hover{color:#00629b;border-color:#00629b}#content .comments-area a.comment-edit-link:hover,#content .comments-area a.comment-permalink:hover,#content .comments-area article header cite a:hover,.comments-area .comment-author-link a:hover{color:#00629b}.comments-area .comment-author-link span{background-color:#00629b}#wp-calendar #today,.comment .comment-reply-link:hover,.nav-next a,.nav-previous a{color:#00629b}.widget-title span{border-bottom:2px solid #00629b}#secondary h3 span:before,.footer-widgets-area h3 span:before{color:#00629b}#secondary .accelerate_tagcloud_widget a:hover,.footer-widgets-area .accelerate_tagcloud_widget a:hover{background-color:#00629b}.footer-widgets-area a:hover{color:#00629b}.footer-socket-wrapper{border-top:3px solid #00629b}.footer-socket-wrapper .copyright a:hover{color:#00629b}a#scroll-up{background-color:#00629b}.entry-meta .byline i,.entry-meta .cat-links i,.entry-meta a,.post .entry-title a:hover{color:#00629b}.entry-meta .post-format i{background-color:#00629b}.entry-meta .comments-link a:hover,.entry-meta .edit-link a:hover,.entry-meta .posted-on a:hover,.main-navigation li.menu-item-has-children:hover,.entry-meta .tag-links a:hover{color:#00629b}.more-link span,.read-more{background-color:#00629b}.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.woocommerce span.onsale {background-color: #00629b;}.woocommerce ul.products li.product .price .amount,.entry-summary .price .amount,.woocommerce .woocommerce-message::before{color: #00629b;},.woocommerce .woocommerce-message { border-top-color: #00629b;}</style>
+				<style type="text/css" id="wp-custom-css">
+			#featured-slider .slider-read-more-button, .slider-title-head .entry-title a {
+    /*background-color: #4e908d;*/
+    background-color: #333;
+}#featured-slider .slider-read-more-button, .slider-title-head .entry-title a {
+    /*background-color: #4e908d;*/
+    background-color: #333;
+}#featured-slider .slider-read-more-button, .slider-title-head .entry-title a {
+    /*background-color: #4e908d;*/
+    background-color: #333;
+}		</style>
+		</head>
+
+<body class="page-template-default page page-id-674 wp-embed-responsive  better-responsive-menu wide">
+<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header clearfix">
+
+		<div id="header-text-nav-container" class="clearfix">
+
+			
+			<div class="inner-wrap">
+
+				<div id="header-text-nav-wrap" class="clearfix">
+					<div id="header-left-section">
+												<div id="header-text">
+							<h1 id="site-title">
+								<a href="https://coar.risc.anl.gov/" title="Cyber Operations, Analysis, and Research" rel="home">Cyber Operations, Analysis, and Research</a>
+							</h1>
+							<h2 id="site-description">(COAR) at Argonne National Laboratory</h2><!-- #site-description -->
+						</div><!-- #header-text -->
+											</div><!-- #header-left-section -->
+					<div id="header-right-section">
+												<div id="header-right-sidebar" class="clearfix">
+						<aside id="text-5" class="widget widget_text">			<div class="textwidget"><p><a href="http://www.anl.gov" target="_blank" rel="noopener"><img loading="lazy" class="alignleft  wp-image-2814" src="/wp-content/uploads/2017/12/Argonne_color_black_transparent.png" alt="" width="165" height="44" /></a></p>
+</div>
+		</aside>						</div>
+									    	</div><!-- #header-right-section -->
+
+			   </div><!-- #header-text-nav-wrap -->
+
+			</div><!-- .inner-wrap -->
+
+			
+			<nav id="site-navigation" class="main-navigation inner-wrap clearfix" role="navigation">
+				<h3 class="menu-toggle">Menu</h3>
+				<div class="menu-menu-1-container"><ul id="menu-menu-1" class="menu"><li id="menu-item-454" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-454"><a title="Cyber Operations, Analysis, and Research Home" href="https://coar.risc.anl.gov/">Home</a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a title="About Cyber Operations Analysis and Research at Argonne" href="https://coar.risc.anl.gov/aboutcoar/">About</a></li>
+<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a title="Partners of Cyber Operations Analysis and Research at Argonne" href="https://coar.risc.anl.gov/partners/">Work With Us</a></li>
+<li id="menu-item-207" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207"><a href="https://coar.risc.anl.gov/research/">Research</a></li>
+<li id="menu-item-2824" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2824"><a href="https://coar.risc.anl.gov/recent-news/">Recent News</a></li>
+<li id="menu-item-633" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-633"><a href="https://coar.risc.anl.gov/resources/">Resources</a>
+<ul class="sub-menu">
+	<li id="menu-item-2714" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2714"><a href="https://coar.risc.anl.gov/resources/cybersecurity-training-course-materials/">Cybersecurity Training Course Materials</a></li>
+</ul>
+</li>
+<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="Careers with COAR at ANL National Laboratory" href="https://coar.risc.anl.gov/careers/">Careers</a></li>
+<li id="menu-item-2675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2675"><a href="https://coar.risc.anl.gov/student-program/">Student Program</a>
+<ul class="sub-menu">
+	<li id="menu-item-2680" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2680"><a href="https://coar.risc.anl.gov/student-program/summer-2017-projects/">Summer 2017 Projects</a></li>
+</ul>
+</li>
+</ul></div>			</nav>
+		</div><!-- #header-text-nav-container -->
+
+		
+		<div class="anl_nav inner-wrap clearfix">
+ <a href="http://www.anl.gov">Argonne National Laboratory</a> &#8594;
+   <a href="http://www.gss.anl.gov">Global Security Sciences</a> &#8594;
+   <a href="http://www.gss.anl.gov/center-for-risk-and-infrastructure-sciences-overview/">Risk and Infrastructure Science Center</a> &#8594; COAR
+</div>
+
+	</header>
+			<div id="main" class="clearfix">
+		<div class="inner-wrap clearfix">
+
+
+	<div id="primary">
+		<div id="content" class="clearfix">
+			
+				
+<article id="post-674" class="post-674 page type-page status-publish hentry">
+	
+	<header class="entry-header">
+		<h1 class="entry-title">Internet Infrastructure</h1>	</header>
+
+	<div class="entry-content clearfix">
+		<div class="collapse navbar-collapse navbar-left navbar-main-collapse" align="left">
+<ul class="nav navbar-nav">
+<li><a href="#about">  About the RRAP  </a></li>
+<li><a href="#ashburn">  Ashburn, VA  </a></li>
+<li><a href="#datacenters">  Data Centers  </a></li>
+<li><a href="#keyfindings">  Key Findings  </a></li>
+<li><a href="#contact">  Contact  </a></li>
+</ul>
+</div>
+<p><img loading="lazy" class="aligncenter wp-image-680 size-full" src="/wp-content/ashburn_back-768x503-1.png" width="765" height="252" /></p>
+<section id="about" class="home-section">
+<div class="wow bounceInUp animated" data-wow-delay="0.2s">
+<h3 align="justify">Regional Resiliency Assessment Program</h3>
+<div class="wow bounceInDown" data-wow-delay="0.4s">
+<p align="justify">The Regional Resiliency Assessment Program (RRAP) is a cooperative, non-regulatory assessment program implemented to examine the resilience of critical infrastructure and systems through regional analysis. The program, led by the Department of Homeland Security (DHS) Office of Infrastructure Protection (IP), addresses a range of hazards that could have significant consequences, both regionally and nationally. The COAR team lent our cyber infrastructure expertise to the Department of Homeland Security to support RRAP cyber-related resilience analyses.</p>
+<p style="text-align: justify;">Each RRAP typically involves data gathering and analytical effort, followed by continued technical assistance to support stakeholders in building infrastructure resilience. RRAPs can incorporate various components, including voluntary facility resilience assessments, targeted studies and modeling, first responder capability evaluations, subject matter expert workshops, and other valuable information-exchange forums. The RRAP process for the Ashburn, Virginia RRAP involved the following steps.</p>
+<ul class="indent">
+<li><span class="turq">STEP 1</span> Assess critical infrastructure on a regional level, focusing on physical vulnerabilities that may lead to cascading cyber consequences, from an all-hazards perspective</li>
+<li><span class="green">STEP 2</span> Identify dependencies, interdependencies, and cascading effects by developing awareness of how this system can be disrupted, through facility site assessments, one-on-one interviews, and facilitated meetings with a wide range of stakeholders</li>
+<li><span class="red">STEP 3</span> Identify gaps in resilience through additional research and analysis aimed at improvements in stakeholder planning and preparedness</li>
+<li><span class="grey">STEP 4</span> Assess capabilities to protect critical infrastructure and to improve communication between private sector stakeholders, resilience planners, and emergency responders</li>
+<li><span class="blue">STEP 5</span> Coordinate efforts to enhance resilience by developing Resilience Enhancement Options to be implemented by State and local stakeholders with the support of DHS IP</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="ashburn" class="home-section">
+<div class="wow bounceInUp animated" data-wow-delay="0.2s">
+<h3></h3>
+<h3 align="justify">Ashburn, VA</h3>
+<p align="justify"><img loading="lazy" class="aligncenter" src="/wp-content/uploads/2016/02/ashburn_back-1-1024x695.png" width="720" height="489" /></p>
+<p align="justify">The cluster of data centers in the greater Ashburn area in Loudoun County serves as the primary global Internet traffic hub on the East Coast owing to the presence of major Internet exchange points (IXPs). With the unique concentration of both fiber and power, on average, 50 to 70 percent of all Internet traffic flows through the greater Ashburn-area data centers. These facilities contain information technology (IT) infrastructure supporting governmental agencies and private companies that, in turn, supply day-to-day services to critical utilities and the public.</p>
+</div>
+</section>
+<section id="datacenters" class="home-section">
+<div class="wow bounceInUp animated" data-wow-delay="0.2s">
+<h3></h3>
+<h3 align="justify">Data Centers</h3>
+<p align="justify">Throughout the Ashburn, VA RRAP, the term “data center” was used generically to refer to a wide variety of facilities that have subtle but important differences. In actuality, a single data center can rarely be categorized as only one of the following logical types; however, for the purposes of illustration and explanation, the following distinctions remain important. The figure below depicts how these facilities are typically connected to one another.</p>
+<p align="justify"><img class="aligncenter" src="/wp-content/uploads/2016/02/infrastructure.png" alt="" width="695" /></p>
+<h4 align="justify">Tier 1 Network Provider Data Centers</h4>
+<p align="justify">Tier 1 network providers are those that have access to every other network on the Internet without paying for transit. Tier 1 network providers have their own data centers where content providers can rent space to deliver increased performance to a variety of customers (known colloquially as “hosting content closer to the eyeballs”). Because tier 1 providers typically offer other services (e.g., cell phone service, home Internet service), they may house other services in their data centers in addition to peering with content providers and other networks.</p>
+<h4 align="justify">Content Provider Data Centers</h4>
+<p align="justify">Large content providers and technology companies (e.g., Google, Microsoft, and Facebook) often build their own data centers. While these data centers frequently bring in transit from several major network providers, they usually house only one company’s data and infrastructure. Although the data centers may be built by a real estate company, they are typically operated by the content provider itself.</p>
+<h4 align="justify">Internet Exchange Points (IXPs, also known as Network Access Points [NAPs])</h4>
+<p align="justify">Internet exchange points offer peering and transit interconnections. A peering interconnection agreement (also called “Bill and Keep” or “Sender Keeps All”) is where two networks provide access only to each other’s customers without making any financial settlements. In contrast, transit interconnections are agreements where one network provides reachability to the entire Internet in return for a monetary settlement. IXP data centers facilitate these connections, usually through the selling of space and power for networking equipment, as well as “cross connect” fees for running cable between customers’ equipment. Unlike tier 1 and content provider data centers, IXP data centers typically do not monitor the networks that connect through their facilities.</p>
+<p align="justify"><img class="aligncenter" src="/wp-content/uploads/2016/02/ixp.png" alt="" width="695" /></p>
+<h4 align="justify">Colocation/Real Estate Data Centers</h4>
+<p align="justify">Colocation data centers are built by companies that typically consider themselves to be in the real estate market. Although these companies may sell power, cooling, and network in addition to physical space, they typically offer no network services (e.g., security, monitoring). They generally view their relationship with the customer as a traditional landlord/tenant relationship. Customers typically install and maintain their own equipment and contract their own network services. Most tier 1 network data centers and IXPs also offer colocation services.</p>
+<h4 align="justify">Internet Service Provider Data Centers</h4>
+<p align="justify">Although many customers connect directly through tier 1 providers to the Internet, tier 2 and tier 3 ISPs often have data centers of their own, as well. A tier 2 network is an ISP who engages in the practice of peering with other networks, but who also purchases Internet protocol transit to reach some portion of the Internet. Tier 2 providers are the most common ISPs, as it is much easier to purchase transit from a tier 1 network than it is to peer with them and attempt to become a tier 1 carrier. Tier 3 networks purchase Internet protocol transit solely from other networks to reach the Internet. These data centers are smaller and often only house services for their direct customers.</p>
+<h4 align="justify">Meet Me Rooms</h4>
+<p align="justify">Most data centers that offer colocation services also have a “meet me room,” which is not strictly a type of data center but is akin to an IXP within a data center. It is usually a separate room or data center “cage” where customers can house equipment that is used exclusively for connecting to other customers also located in that facility. Peering and transit agreements can be connected through meet me rooms as well.</p>
+</div>
+</section>
+<section id="keyfindings" class="home-section">
+<div class="wow bounceInUp animated" data-wow-delay="0.2s">
+<h3></h3>
+<h3 align="justify">Key Findings</h3>
+<p align="justify">Internet infrastructure is highly distributed among different private and public sector entities. Many companies own different parts of the infrastructure, and Internet traffic can travel on many paths. The Transmission Control Protocol (TCP) that is one of the primary communications protocols used on the Internet is designed as a stateful end-to-end protocol, meaning that it attempts to guarantee message delivery from sender to receiver despite changes or outages in the intervening network nodes. This protocol allows networks using TCP to be highly resistant to failures when multiple paths from sender to receiver exist. TCP’s resilience has the potential to fail if a concentration of high-capacity routes between a particular sender and receiver become unavailable. The geographical locality of such a large quantity of data centers and network routes in the Ashburn area makes this concentration a concern. The New York Times recently published an article on the vulnerabilities and importance of the physical infrastructure that the Internet comprises. As Internet access increasingly becomes a critical dependency, the public is becoming more aware of its physical vulnerabilities. This recognition has made it imperative to study these vulnerabilities and develop strategies to improve their resilience.</p>
+<p align="justify">The properties that make this infrastructure resilient also make it difficult to gather data and conduct data-driven analysis of potential failures. Although several Internet companies have stated that they have conducted failure analyses to show that an outage of the Ashburn region would have no national or global consequences to Internet routing, any such study would be limited to an individual company’s own data, and hence, incomplete.</p>
+<p align="justify">It is in part owing to this difficulty in data collection that the Ashburn, VA RRAP’s Key Findings focus on improving communication and information sharing. One thing is certain: as government and other critical infrastructure sectors begin to rely more heavily on data and network infrastructure for daily operations, studies of this type will only become more important. The Ashburn, VA RRAP presents a perfect opportunity to begin this data collection effort through follow-on activities designed to build consensus and demonstrate to stakeholders the need for and benefit of compiling such information.</p>
+<p align="justify">The Ashburn, VA RRAP identified vulnerabilities that may affect the Internet community’s ability to prepare for and recover from the impacts of a variety of natural and manmade threats to its infrastructure assets. The associated Resilience Enhancement Options may be considered for implementation by Ashburn, VA RRAP stakeholders and partners to address the resilience gaps described in the Key Findings.</p>
+<h4 align="justify">Internet resilience is contingent on a limited number of centralized Internet exchange points (IXPs).</h4>
+<p align="justify">A study should be conducted that simulates the outage of an IXP. Such a simulation would include modeling the traffic and Transmission Control Protocol congestion during an outage of IXP facilities in the greater Ashburn area.</p>
+<h4 align="justify">Transparency in both network and data center infrastructure would enhance resilience planning.</h4>
+<p align="justify">The State, in concert with private sector stakeholders, should coordinate a workshop on the development of cloud and data center service taxonomies and assessments. Such taxonomies and/or assessments should allow for equal comparison of resilience features across providers and empower customers by fostering open, honest competition.</p>
+<h4 align="justify">Local law enforcement personnel would benefit from training and the exchange of information concerning how to recognize suspicious activity around IT infrastructure assets.</h4>
+<p align="justify">Law enforcement personnel should engage industry stakeholders to facilitate training and education on fiber routes and suspicious activity. This training should also address how and when to approach maintenance personnel and how to confirm that they are authorized to work in a given area.</p>
+<h4 align="justify">Data center and content providers may not have a pathway to contribute to resilience efforts and/or communicate criticality during an emergency.</h4>
+<p align="justify">A workshop should be conducted for the data center community so that all parties can communicate their needs for points of contact and access to emergency operation center (EOC) resources and for communication pathways during an emergency.</p>
+<h4 align="justify">Transportation infrastructure and private trucking companies are necessary to supply diesel fuel to data center facilities in the event of an extended electric interruption.</h4>
+<p align="justify">An in-depth study of the region’s fuel supply chain should be conducted specifically to address concerns relating to fuel supplies and the ability to deliver fuel during an extended power outage to data center facilities. Such a study should include best- and worst-case scenarios for road conditions after a disaster. Data center and network providers should be present at the State’s annual exercise within the region. Their participation would improve decision makers’ understanding concerning the critical roles of data centers in response efforts.</p>
+<h4 align="justify">Data centers and network providers should consider electromagnetic pulse (EMP) and radio frequency (RF) generator effects in developing resilience and protective measures plans.</h4>
+<p align="justify">Additional workshops should be conducted to support Ashburn-area data centers in their efforts to improve resilience to EMP/RF effects. A process should be established to keep data centers and local law enforcement up to date on new EMP/RF threats. Discussion about whether and to what extent EMP/RF protection should be deployed should be a standard risk management topic for data centers.</p>
+<h4 align="justify">Communication and education efforts between data center providers and fire department personnel are necessary to support resilience planning.</h4>
+<p align="justify">Data centers and fire department personnel should work together to arrange training and education sessions to help ensure that fire department personnel are aware of distinctive data center needs and environments. Data centers should consider installing radio equipment that operates on frequencies used by fire and police department radios to assist with operations during emergency situations.</p>
+</div>
+</section>
+<section id="contact" class="home-section">
+<div class="wow bounceInUp animated" data-wow-delay="0.2s">
+<h3 align="justify">Learn More</h3>
+<div class="col-lg-4">
+<div class="widget-contact" align="left">
+<address><strong>Kelly Wilson</strong><br />
+DHS<br />
+Protective Security Advisor, San Diego (previously National Capital Region)<br />
+<a href="mailto:#">kelly.wilson@hq.dhs.gov</a></address>
+<address><strong>Jaysen Goodwin</strong><br />
+DHS<br />
+Regional Resiliency Assessment Program (RRAP) Headquarters Team Lead<br />
+<a href="mailto:#">jaysen.goodwin@hq.dhs.gov</a></address>
+<address><strong>Kyle Wolf</strong><br />
+DHS<br />
+Protective Security Advisor, National Captial Region<br />
+<a href="mailto:#">kyle.wolf@hq.dhs.gov</a></address>
+<address><strong>James Finney</strong><br />
+DHS<br />
+Protective Security Advisor, National Captial Region<br />
+<a href="mailto:#">james.finney@hq.dhs.gov</a></address>
+<address><strong>Michael Thompson</strong><br />
+Argonne National Laboratory (supporting DHS)<br />
+RRAP Resiliency Analyst Lead<br />
+<a href="mailto:coar@anl.gov">coar@anl.gov</a></address>
+</div>
+</div>
+</div>
+<div class="col-lg-6" align="left">
+<div class="widget-contact" align="right">
+<p style="text-align: left;" align="right">Additional details:<br />
+<a href="http://www.dhs.gov/publication/rrap-fact-sheet">RRAP Fact Sheet</a></p>
+<p style="text-align: left;">For more information:<br />
+<a href="mailto:#">PSCDOperations@hq.dhs.gov</a></p>
+</div>
+</div>
+</section>
+			</div>
+
+	</article>
+
+				
+			
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+
+<div id="secondary">
+			
+		<aside id="search-2" class="widget widget_search"><form action="https://coar.risc.anl.gov/"id="search-form" class="searchform clearfix" method="get">
+	<input type="text" placeholder="Search" class="s field" name="s">
+	<input type="submit" value="Search" id="search-submit" name="submit" class="submit">
+</form><!-- .searchform --></aside><aside id="text-12" class="widget widget_text">			<div class="textwidget"><a href="https://cyberdefense.anl.gov">
+  <img src="/wp-content/uploads/2018/08/CyberForce.jpg" alt="December 2018 Cyber Defense Competition Argonne National Laboratory Logo" style="margin: -9px 0 -13px 0;"/>
+</a> </div>
+		</aside>
+		<aside id="recent-posts-7" class="widget widget_recent_entries">
+		<h3 class="widget-title"><span>Recent Articles</span></h3>
+		<ul>
+											<li>
+					<a href="https://coar.risc.anl.gov/department-of-energys-annual-cyber-defense-competition/">Department of Energy’s Annual Cyber Defense Competition</a>
+											<span class="post-date">February 6, 2018</span>
+									</li>
+											<li>
+					<a href="https://coar.risc.anl.gov/meltdown-spectre-and-speculative-execution-oh-my/">Meltdown, Spectre, and Speculative Execution, Oh My!</a>
+											<span class="post-date">January 8, 2018</span>
+									</li>
+											<li>
+					<a href="https://coar.risc.anl.gov/new-year-new-cyber-me/">New Year, New (Cyber) Me</a>
+											<span class="post-date">January 4, 2018</span>
+									</li>
+					</ul>
+
+		</aside>	</div>
+
+
+		</div><!-- .inner-wrap -->
+	</div><!-- #main -->	
+			<footer id="colophon" class="clearfix">	
+			<div class="footer-widgets-wrapper">
+	<div class="inner-wrap">
+		<div class="footer-widgets-area clearfix">
+			<div class="tg-one-third">
+				<aside id="nav_menu-4" class="widget widget_nav_menu"><div class="menu-menu-1-container"><ul id="menu-menu-2" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-454"><a title="Cyber Operations, Analysis, and Research Home" href="https://coar.risc.anl.gov/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a title="About Cyber Operations Analysis and Research at Argonne" href="https://coar.risc.anl.gov/aboutcoar/">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a title="Partners of Cyber Operations Analysis and Research at Argonne" href="https://coar.risc.anl.gov/partners/">Work With Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207"><a href="https://coar.risc.anl.gov/research/">Research</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2824"><a href="https://coar.risc.anl.gov/recent-news/">Recent News</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-633"><a href="https://coar.risc.anl.gov/resources/">Resources</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2714"><a href="https://coar.risc.anl.gov/resources/cybersecurity-training-course-materials/">Cybersecurity Training Course Materials</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="Careers with COAR at ANL National Laboratory" href="https://coar.risc.anl.gov/careers/">Careers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2675"><a href="https://coar.risc.anl.gov/student-program/">Student Program</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2680"><a href="https://coar.risc.anl.gov/student-program/summer-2017-projects/">Summer 2017 Projects</a></li>
+</ul>
+</li>
+</ul></div></aside>			</div>
+			<div class="tg-one-third">
+				<aside id="search-8" class="widget widget_search"><h3 class="widget-title"><span>Search</span></h3><form action="https://coar.risc.anl.gov/"id="search-form" class="searchform clearfix" method="get">
+	<input type="text" placeholder="Search" class="s field" name="s">
+	<input type="submit" value="Search" id="search-submit" name="submit" class="submit">
+</form><!-- .searchform --></aside>			</div>
+			<div class="tg-one-third tg-one-third-last">
+				<aside id="text-9" class="widget widget_text">			<div class="textwidget"><h5 class="red-head">this site is running on...</h5><div id="accordion"><br />
+<h3> <a href='http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6900086'><!--<object>
+ <param name="more-anim" value="/more-anim12.swf" />
+<param name="wmode" value="transparent" />
+  <embed wmode=transparent allowscriptaccess="always" src="/more-anim12.swf" width=200 height=50 title="MORE-MTD logo"></embed>
+</object>-->
+<img src=/more-anim12-FOR_GIF2.gif width=200 height=50 /></a>  </h3>
+<div class="live host">This site runs on our patented <a href='http://ieeexplore.ieee.org/xpls/icp.jsp?arnumber=6900086'>more mtd</a> technology.  The previous live host was:</div><br />
+<div id="more-mtd-content">
+</div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56674559-1', 'auto');
+  ga('send', 'pageview');
+
+</script></div>
+		</aside>			</div>
+		</div>
+	</div>
+</div>	
+			<div class="footer-socket-wrapper clearfix">
+				<div class="inner-wrap">
+					<div class="footer-socket-area">
+						<div class="copyright">Copyright &copy; 2020 <a href="https://coar.risc.anl.gov/" title="Cyber Operations, Analysis, and Research" ><span>Cyber Operations, Analysis, and Research</span></a>. Powered by <a href="https://wordpress.org" target="_blank" title="WordPress"><span>WordPress</span></a>. Theme: Accelerate by <a href="https://themegrill.com/themes/accelerate" target="_blank" title="ThemeGrill" rel="author"><span>ThemeGrill</span></a>.</div>						<nav class="footer-menu" class="clearfix">
+									    			</nav>
+					</div>
+				</div>
+			</div>			
+		</footer>
+		<a href="#masthead" id="scroll-up"><i class="fa fa-long-arrow-up"></i></a>	
+	</div><!-- #page -->
+	<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/coar.risc.anl.gov\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.3.1' id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-content/plugins/tlp-team/assets/vendor/isotope/isotope.pkgd.min.js?ver=2.5.5' id='tlp-isotope-js'></script>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-content/plugins/tlp-team/assets/vendor/owl-carousel/owl.carousel.min.js?ver=2.5.5' id='tlp-owl-carousel-js'></script>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-content/plugins/tlp-team/assets/js/tlpteam.js?ver=2.5.5' id='tlp-team-js'></script>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-content/themes/accelerate-child/local.js' id='custom-js'></script>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-content/themes/accelerate/js/navigation.js?ver=5.6' id='accelerate-navigation-js'></script>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-content/themes/accelerate/js/skip-link-focus-fix.js?ver=5.6' id='accelerate-skip-link-focus-fix-js'></script>
+<script type='text/javascript' src='https://coar.risc.anl.gov/wp-includes/js/wp-embed.min.js?ver=5.6' id='wp-embed-js'></script>
+</body>
+</html>
