@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://coar-staging.risc.anl.gov/xmlrpc.php" />
+<title>Recent News &#8211; Cyber Operations, Analysis, and Research</title>
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Cyber Operations, Analysis, and Research &raquo; Feed" href="https://coar-staging.risc.anl.gov/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/coar-staging.risc.anl.gov\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.6"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://coar-staging.risc.anl.gov/wp-includes/css/dist/block-library/style.min.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='https://coar-staging.risc.anl.gov/wp-includes/css/dist/block-library/theme.min.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://coar-staging.risc.anl.gov/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-standard-css-css'  href='//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/flick/jquery-ui.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='pc_google_analytics-frontend-css'  href='https://coar-staging.risc.anl.gov/wp-content/plugins/pc-google-analytics/assets/css/frontend.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_fonts-css'  href='https://coar-staging.risc.anl.gov/wp-content/plugins/photo-gallery/css/bwg-fonts/fonts.css?ver=0.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='sumoselect-css'  href='https://coar-staging.risc.anl.gov/wp-content/plugins/photo-gallery/css/sumoselect.min.css?ver=3.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='mCustomScrollbar-css'  href='https://coar-staging.risc.anl.gov/wp-content/plugins/photo-gallery/css/jquery.mCustomScrollbar.min.css?ver=1.5.65' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_frontend-css'  href='https://coar-staging.risc.anl.gov/wp-content/plugins/photo-gallery/css/styles.min.css?ver=1.5.65' type='text/css' media='all' />
+<link rel='stylesheet' id='uaf_client_css-css'  href='https://coar-staging.risc.anl.gov/wp-content/uploads/useanyfont/uaf.css?ver=1578290407' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css'  href='https://coar-staging.risc.anl.gov/wp-content/themes/accelerate/style.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='accelerate_style-css'  href='https://coar-staging.risc.anl.gov/wp-content/themes/accelerate-child/style.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='accelerate_googlefonts-css'  href='//fonts.googleapis.com/css?family=Roboto%3A400%2C300%2C100%7CRoboto+Slab%3A700%2C400&#038;ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='accelerate-fontawesome-css'  href='https://coar-staging.risc.anl.gov/wp-content/themes/accelerate/fontawesome/css/font-awesome.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://coar-staging.risc.anl.gov/wp-content/plugins/tablepress/css/default.min.css?ver=1.12' type='text/css' media='all' />
+<style id='tablepress-default-inline-css' type='text/css'>
+.tablepress-id-1 .column-1,.tablepress-id-1 .column-2,.tablepress-id-1 .column-3,.tablepress-id-1 .column-4{text-align:center;vertical-align:middle;width:100px}.tablepress thead th,.tablepress tfoot th{background-color:#b3b3b3;color:#000}
+</style>
+<link rel='stylesheet' id='tmm-css'  href='https://coar-staging.risc.anl.gov/wp-content/plugins/team-members/inc/css/tmm_style.css?ver=5.6' type='text/css' media='all' />
+<script type='text/javascript' src='https://coar-staging.risc.anl.gov/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://coar-staging.risc.anl.gov/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://coar-staging.risc.anl.gov/wp-content/plugins/pc-google-analytics/assets/js/frontend.min.js?ver=1.0.0' id='pc_google_analytics-frontend-js'></script>
+<script type='text/javascript' src='https://coar-staging.risc.anl.gov/wp-content/plugins/photo-gallery/js/jquery.sumoselect.min.js?ver=3.0.3' id='sumoselect-js'></script>
+<script type='text/javascript' src='https://coar-staging.risc.anl.gov/wp-content/plugins/photo-gallery/js/jquery.mobile.min.js?ver=1.3.2' id='jquery-mobile-js'></script>
+<script type='text/javascript' src='https://coar-staging.risc.anl.gov/wp-content/plugins/photo-gallery/js/jquery.mCustomScrollbar.concat.min.js?ver=1.5.65' id='mCustomScrollbar-js'></script>
+<script type='text/javascript' src='https://coar-staging.risc.anl.gov/wp-content/plugins/photo-gallery/js/jquery.fullscreen-0.4.1.min.js?ver=0.4.1' id='jquery-fullscreen-js'></script>
+<script type='text/javascript' id='bwg_frontend-js-extra'>
+/* <![CDATA[ */
+var bwg_objectsL10n = {"bwg_field_required":"field is required.","bwg_mail_validation":"This is not a valid email address.","bwg_search_result":"There are no images matching your search.","bwg_select_tag":"Select Tag","bwg_order_by":"Order By","bwg_search":"Search","bwg_show_ecommerce":"Show Ecommerce","bwg_hide_ecommerce":"Hide Ecommerce","bwg_show_comments":"Show Comments","bwg_hide_comments":"Hide Comments","bwg_restore":"Restore","bwg_maximize":"Maximize","bwg_fullscreen":"Fullscreen","bwg_exit_fullscreen":"Exit Fullscreen","bwg_search_tag":"SEARCH...","bwg_tag_no_match":"No tags found","bwg_all_tags_selected":"All tags selected","bwg_tags_selected":"tags selected","play":"Play","pause":"Pause","is_pro":"","bwg_play":"Play","bwg_pause":"Pause","bwg_hide_info":"Hide info","bwg_show_info":"Show info","bwg_hide_rating":"Hide rating","bwg_show_rating":"Show rating","ok":"Ok","cancel":"Cancel","select_all":"Select all","lazy_load":"0","lazy_loader":"https:\/\/coar-staging.risc.anl.gov\/wp-content\/plugins\/photo-gallery\/images\/ajax_loader.png","front_ajax":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://coar-staging.risc.anl.gov/wp-content/plugins/photo-gallery/js/scripts.min.js?ver=1.5.65' id='bwg_frontend-js'></script>
+<script type='text/javascript' id='ajax-script-js-extra'>
+/* <![CDATA[ */
+var my_ajax_object = {"ajax_url":"https:\/\/coar-staging.risc.anl.gov\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://coar-staging.risc.anl.gov/wp-content/plugins/team-showcase-supreme/assets/js/ajaxdata.js?ver=5.6' id='ajax-script-js'></script>
+<script type='text/javascript' src='https://coar-staging.risc.anl.gov/wp-content/themes/accelerate/js/accelerate-custom.js?ver=5.6' id='accelerate-custom-js'></script>
+<!--[if lte IE 8]>
+<script type='text/javascript' src='https://coar-staging.risc.anl.gov/wp-content/themes/accelerate/js/html5shiv.js?ver=3.7.3' id='html5shiv-js'></script>
+<![endif]-->
+<link rel="https://api.w.org/" href="https://coar-staging.risc.anl.gov/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://coar-staging.risc.anl.gov/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://coar-staging.risc.anl.gov/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.6" />
+<link type="text/css" rel="stylesheet" href="https://coar-staging.risc.anl.gov/wp-content/plugins/category-specific-rss-feed-menu/wp_cat_rss_style.css" />
+<script type="text/javascript">
+jQuery(document).ready(function() {
+  jQuery.ajaxSetup({ cache: false });
+});
+function loadStatus() {
+  jQuery.getJSON("/wp-content/status.json", function(status) {
+	//var status = jQuery.parseJSON(data);
+	var ourHtml = "";
+	status.hosts.sort();
+	for (i=0; i<status.hosts.length; i++) {
+	  if (status.hosts[i] == status.live) {
+		ourHtml += "<span class='live host'>→ "+status.hosts[i]+"</span><br />";
+	  } else {
+		ourHtml += "<span class='host'>"+status.hosts[i]+"</span><br />";
+	  }
+	}
+	if (window.live != status.live) {
+	  jQuery("#more-mtd-content").html(ourHtml);
+	  console.log("more-mtd last live: "+status.live);
+	  window.live = status.live;
+	}
+
+  });
+}
+loadStatus();
+setInterval(function() {loadStatus() }, 2000);
+</script>
+<style type="text/css">
+.ui-widget {
+font-family: inherit;
+font-size: inherit;
+}
+.ui-accordion-header {
+  background: transparent;
+  border: 0px;
+}
+
+.ui-accordion-content {
+  border: 0px;
+  font-size: 10pt;
+}
+</style>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+		ga('create', 'UA-56674559-1', 'auto');
+		ga('send', 'pageview');
+		
+		</script>
+		<style type="text/css"> .accelerate-button,blockquote,button,input[type=button],input[type=reset],input[type=submit]{background-color:#00629b}a{color:#00629b}#page{border-top:3px solid #00629b}#site-title a:hover{color:#00629b}#search-form span,.main-navigation a:hover,.main-navigation ul li ul li a:hover,.main-navigation ul li ul li:hover>a,.main-navigation ul li.current-menu-ancestor a,.main-navigation ul li.current-menu-item a,.main-navigation ul li.current-menu-item ul li a:hover,.main-navigation ul li.current_page_ancestor a,.main-navigation ul li.current_page_item a,.main-navigation ul li:hover>a,.main-small-navigation li:hover > a{background-color:#00629b}.site-header .menu-toggle:before{color:#00629b}.main-small-navigation li:hover{background-color:#00629b}.main-small-navigation ul>.current-menu-item,.main-small-navigation ul>.current_page_item{background:#00629b}.footer-menu a:hover,.footer-menu ul li.current-menu-ancestor a,.footer-menu ul li.current-menu-item a,.footer-menu ul li.current_page_ancestor a,.footer-menu ul li.current_page_item a,.footer-menu ul li:hover>a{color:#00629b}#featured-slider .slider-read-more-button,.slider-title-head .entry-title a{background-color:#00629b}a.slide-prev,a.slide-next,.slider-title-head .entry-title a{background-color:#00629b}#controllers a.active,#controllers a:hover{background-color:#00629b;color:#00629b}.format-link .entry-content a{background-color:#00629b}#secondary .widget_featured_single_post h3.widget-title a:hover,.widget_image_service_block .entry-title a:hover{color:#00629b}.pagination span{background-color:#00629b}.pagination a span:hover{color:#00629b;border-color:#00629b}#content .comments-area a.comment-edit-link:hover,#content .comments-area a.comment-permalink:hover,#content .comments-area article header cite a:hover,.comments-area .comment-author-link a:hover{color:#00629b}.comments-area .comment-author-link span{background-color:#00629b}#wp-calendar #today,.comment .comment-reply-link:hover,.nav-next a,.nav-previous a{color:#00629b}.widget-title span{border-bottom:2px solid #00629b}#secondary h3 span:before,.footer-widgets-area h3 span:before{color:#00629b}#secondary .accelerate_tagcloud_widget a:hover,.footer-widgets-area .accelerate_tagcloud_widget a:hover{background-color:#00629b}.footer-widgets-area a:hover{color:#00629b}.footer-socket-wrapper{border-top:3px solid #00629b}.footer-socket-wrapper .copyright a:hover{color:#00629b}a#scroll-up{background-color:#00629b}.entry-meta .byline i,.entry-meta .cat-links i,.entry-meta a,.post .entry-title a:hover{color:#00629b}.entry-meta .post-format i{background-color:#00629b}.entry-meta .comments-link a:hover,.entry-meta .edit-link a:hover,.entry-meta .posted-on a:hover,.main-navigation li.menu-item-has-children:hover,.entry-meta .tag-links a:hover{color:#00629b}.more-link span,.read-more{background-color:#00629b}.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.woocommerce span.onsale {background-color: #00629b;}.woocommerce ul.products li.product .price .amount,.entry-summary .price .amount,.woocommerce .woocommerce-message::before{color: #00629b;},.woocommerce .woocommerce-message { border-top-color: #00629b;}</style>
+				<style type="text/css" id="wp-custom-css">
+			#featured-slider .slider-read-more-button, .slider-title-head .entry-title a {
+    /*background-color: #4e908d;*/
+    background-color: #333;
+}#featured-slider .slider-read-more-button, .slider-title-head .entry-title a {
+    /*background-color: #4e908d;*/
+    background-color: #333;
+}#featured-slider .slider-read-more-button, .slider-title-head .entry-title a {
+    /*background-color: #4e908d;*/
+    background-color: #333;
+}		</style>
+		</head>
+
+<body class="blog wp-embed-responsive left-sidebar better-responsive-menu wide">
+<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header clearfix">
+
+		<div id="header-text-nav-container" class="clearfix">
+
+			
+			<div class="inner-wrap">
+
+				<div id="header-text-nav-wrap" class="clearfix">
+					<div id="header-left-section">
+												<div id="header-text">
+							<h1 id="site-title">
+								<a href="https://coar-staging.risc.anl.gov/" title="Cyber Operations, Analysis, and Research" rel="home">Cyber Operations, Analysis, and Research</a>
+							</h1>
+							<h2 id="site-description">(COAR) at Argonne National Laboratory</h2><!-- #site-description -->
+						</div><!-- #header-text -->
+											</div><!-- #header-left-section -->
+					<div id="header-right-section">
+												<div id="header-right-sidebar" class="clearfix">
+						<aside id="text-5" class="widget widget_text">			<div class="textwidget"><p><a href="http://www.anl.gov" target="_blank" rel="noopener"><img loading="lazy" class="alignleft  wp-image-2814" src="/wp-content/uploads/2017/12/Argonne_color_black_transparent.png" alt="" width="165" height="44" /></a></p>
+</div>
+		</aside>						</div>
+									    	</div><!-- #header-right-section -->
+
+			   </div><!-- #header-text-nav-wrap -->
+
+			</div><!-- .inner-wrap -->
+
+			
+			<nav id="site-navigation" class="main-navigation inner-wrap clearfix" role="navigation">
+				<h3 class="menu-toggle">Menu</h3>
+				<div class="menu-menu-1-container"><ul id="menu-menu-1" class="menu"><li id="menu-item-454" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-454"><a title="Cyber Operations, Analysis, and Research Home" href="https://coar-staging.risc.anl.gov/">Home</a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a title="About Cyber Operations Analysis and Research at Argonne" href="https://coar-staging.risc.anl.gov/aboutcoar/">About</a></li>
+<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a title="Partners of Cyber Operations Analysis and Research at Argonne" href="https://coar-staging.risc.anl.gov/partners/">Work With Us</a></li>
+<li id="menu-item-207" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207"><a href="https://coar-staging.risc.anl.gov/research/">Research</a></li>
+<li id="menu-item-2824" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2818 current_page_item current_page_parent menu-item-2824"><a href="https://coar-staging.risc.anl.gov/recent-news/" aria-current="page">Recent News</a></li>
+<li id="menu-item-633" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-633"><a href="https://coar-staging.risc.anl.gov/resources/">Resources</a>
+<ul class="sub-menu">
+	<li id="menu-item-2714" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2714"><a href="https://coar-staging.risc.anl.gov/resources/cybersecurity-training-course-materials/">Cybersecurity Training Course Materials</a></li>
+</ul>
+</li>
+<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="Careers with COAR at ANL National Laboratory" href="https://coar-staging.risc.anl.gov/careers/">Careers</a></li>
+<li id="menu-item-2675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2675"><a href="https://coar-staging.risc.anl.gov/student-program/">Student Program</a>
+<ul class="sub-menu">
+	<li id="menu-item-2680" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2680"><a href="https://coar-staging.risc.anl.gov/student-program/summer-2017-projects/">Summer 2017 Projects</a></li>
+</ul>
+</li>
+</ul></div>			</nav>
+		</div><!-- #header-text-nav-container -->
+
+		
+		<div class="anl_nav inner-wrap clearfix">
+ <a href="http://www.anl.gov">Argonne National Laboratory</a> &#8594;
+   <a href="http://www.gss.anl.gov">Global Security Sciences</a> &#8594;
+   <a href="http://www.gss.anl.gov/center-for-risk-and-infrastructure-sciences-overview/">Risk and Infrastructure Science Center</a> &#8594; COAR
+</div>
+
+	</header>
+			<div id="main" class="clearfix">
+		<div class="inner-wrap clearfix">
+
+	
+	<div id="primary">
+		<div id="content" class="clearfix">
+
+			
+				
+					
+					
+<article id="post-2732" class="post-2732 post type-post status-publish format-standard hentry category-cyber-defense-competition">
+		<header class="entry-header">
+		<h2 class="entry-title">
+			<a href="https://coar-staging.risc.anl.gov/department-of-energys-annual-cyber-defense-competition/" title="Department of Energy’s Annual Cyber Defense Competition">Department of Energy’s Annual Cyber Defense Competition</a>
+		</h2>
+	</header>
+
+	<div class="entry-meta">		<span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="https://coar-staging.risc.anl.gov/author/coar/" title="COAR">COAR</a></span></span>
+		<span class="cat-links"><i class="fa fa-folder-open"></i><a href="https://coar-staging.risc.anl.gov/category/cyber-defense-competition/" rel="category tag">Cyber Defense Competition</a></span>
+		<span class="sep"><span class="post-format"><i class="fa "></i></span></span>
+
+		<span class="posted-on"><a href="https://coar-staging.risc.anl.gov/department-of-energys-annual-cyber-defense-competition/" title="9:20 pm" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2018-02-06T21:20:07+00:00">February 6, 2018</time></a></span></div>
+	
+	<div class="entry-content clearfix">
+		<h2>Summary<a href="/wp-content/uploads/2017/09/2018-DOE-NATL-LABS-RED.jpg"><img loading="lazy" class=" wp-image-2743 alignright" src="/wp-content/uploads/2017/09/2018-DOE-NATL-LABS-RED.jpg" alt="" width="349" height="187" /></a></h2>
+<p>The ever-increasing amount of Internet technology in the modern day makes security a high priority and causes a high demand for cybersecurity professionals in the United States.  In fact, ISACA predicts a global shortage of two million cyber professionals by 2019.<a href="#_ftn1" name="_ftnref1">[1]</a>  <em>Unfilled cybersecurity careers will reach over 1.5 million by 2019</em>. With the ever-increasing amount of technology placed on the internet, security becomes a high priority. The Department of Energy (DOE), capitalizing on the expertise of current national laboratory staff that previously hosted two successful cyber defense competitions to exercise interactive, scenario-based events, where teams engage in cybersecurity activities includes methods, practices, strategy, policy, and ethics. Through the cyber defense competitions, DOE has worked to increase 1) hands-on cyber education to college students and professionals, 2) awareness into the critical infrastructure and cyber security nexus,  and  3)  basic  understanding  of  cyber  security  within  a  real  world scenario.</p>
+<p> <a href="https://coar-staging.risc.anl.gov/department-of-energys-annual-cyber-defense-competition/" class="more-link"><span>Read more</span></a></p>
+	</div>
+
+	</article>
+
+				
+					
+					
+<article id="post-2965" class="post-2965 post type-post status-publish format-standard hentry category-cyber-analysis">
+		<header class="entry-header">
+		<h2 class="entry-title">
+			<a href="https://coar-staging.risc.anl.gov/meltdown-spectre-and-speculative-execution-oh-my/" title="Meltdown, Spectre, and Speculative Execution, Oh My!">Meltdown, Spectre, and Speculative Execution, Oh My!</a>
+		</h2>
+	</header>
+
+	<div class="entry-meta">		<span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="https://coar-staging.risc.anl.gov/author/coar/" title="COAR">COAR</a></span></span>
+		<span class="cat-links"><i class="fa fa-folder-open"></i><a href="https://coar-staging.risc.anl.gov/category/cyber-analysis/" rel="category tag">Cyber Analysis</a></span>
+		<span class="sep"><span class="post-format"><i class="fa "></i></span></span>
+
+		<span class="posted-on"><a href="https://coar-staging.risc.anl.gov/meltdown-spectre-and-speculative-execution-oh-my/" title="6:10 pm" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2018-01-08T18:10:09+00:00">January 8, 2018</time><time class="updated" datetime="2018-02-08T15:35:16+00:00">February 8, 2018</time></a></span></div>
+	
+	<div class="entry-content clearfix">
+		<p><a href="https://spectreattack.com/" target="_blank" rel="noopener">Official Site for Spectre and Meltdown</a><br />
+<meta property="og:image" content="https://coar-staging.risc.anl.gov/wp-content/uploads/2014/11/logo-coar-whitebox-reverse-small2.png"/><br />
+<a href="https://meltdownattack.com/meltdown.pdf"><img loading="lazy" class="alignleft wp-image-2967" src="/wp-content/uploads/2018/01/meltdown-logo.png" alt="meltdown logo" width="328" height="279" /></a><a href="https://meltdownattack.com/spectre.pdf"><img loading="lazy" class="alignnone wp-image-2966" src="/wp-content/uploads/2018/01/spectre-logo.png" alt="spectre logo" width="329" height="285" /></a></p>
+<p>Modern processors are very complex and, as such, contain some features that make use of advanced techniques to provide users with faster execution times. One of these features utilizes speculative execution, a technique that utilizes additional memory in order to save time in the long run. Since this may not be a well-known concept outside of lower-level programming, here is a small example to provide context. <a href="https://coar-staging.risc.anl.gov/meltdown-spectre-and-speculative-execution-oh-my/" class="more-link"><span>Read more</span></a></p>
+	</div>
+
+	</article>
+
+				
+					
+					
+<article id="post-2950" class="post-2950 post type-post status-publish format-standard hentry category-cyber-analysis">
+		<header class="entry-header">
+		<h2 class="entry-title">
+			<a href="https://coar-staging.risc.anl.gov/new-year-new-cyber-me/" title="New Year, New (Cyber) Me">New Year, New (Cyber) Me</a>
+		</h2>
+	</header>
+
+	<div class="entry-meta">		<span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="https://coar-staging.risc.anl.gov/author/coar/" title="COAR">COAR</a></span></span>
+		<span class="cat-links"><i class="fa fa-folder-open"></i><a href="https://coar-staging.risc.anl.gov/category/cyber-analysis/" rel="category tag">Cyber Analysis</a></span>
+		<span class="sep"><span class="post-format"><i class="fa "></i></span></span>
+
+		<span class="posted-on"><a href="https://coar-staging.risc.anl.gov/new-year-new-cyber-me/" title="4:22 pm" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2018-01-04T16:22:26+00:00">January 4, 2018</time><time class="updated" datetime="2018-02-06T21:09:26+00:00">February 6, 2018</time></a></span></div>
+	
+	<div class="entry-content clearfix">
+		<p>People typically use the dawn of the new year to shed the old habits that have crept up through the year and spawn new, better, and hopefully healthier habits. Do not limit yourself to just physical goals! The new year poses an excellent chance to take a good look at your cyber hygiene and pick one or two things that might give you some additional protection. Here are some tips that might get you started</p>
+<p> <a href="https://coar-staging.risc.anl.gov/new-year-new-cyber-me/" class="more-link"><span>Read more</span></a></p>
+	</div>
+
+	</article>
+
+				
+					
+					
+<article id="post-2943" class="post-2943 post type-post status-publish format-standard hentry category-cyber-analysis category-cyber-defense-competition category-cyber-operations category-cyber-research category-cyber-training">
+		<header class="entry-header">
+		<h2 class="entry-title">
+			<a href="https://coar-staging.risc.anl.gov/2017-close-out-and-holiday-sign-off/" title="2017 Close-out and Holiday Sign Off">2017 Close-out and Holiday Sign Off</a>
+		</h2>
+	</header>
+
+	<div class="entry-meta">		<span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="https://coar-staging.risc.anl.gov/author/coar/" title="COAR">COAR</a></span></span>
+		<span class="cat-links"><i class="fa fa-folder-open"></i><a href="https://coar-staging.risc.anl.gov/category/cyber-analysis/" rel="category tag">Cyber Analysis</a>, <a href="https://coar-staging.risc.anl.gov/category/cyber-defense-competition/" rel="category tag">Cyber Defense Competition</a>, <a href="https://coar-staging.risc.anl.gov/category/cyber-operations/" rel="category tag">Cyber Operations</a>, <a href="https://coar-staging.risc.anl.gov/category/cyber-research/" rel="category tag">Cyber Research</a>, <a href="https://coar-staging.risc.anl.gov/category/cyber-training/" rel="category tag">Cyber Training</a></span>
+		<span class="sep"><span class="post-format"><i class="fa "></i></span></span>
+
+		<span class="posted-on"><a href="https://coar-staging.risc.anl.gov/2017-close-out-and-holiday-sign-off/" title="3:00 pm" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-12-19T15:00:54+00:00">December 19, 2017</time><time class="updated" datetime="2017-12-19T15:01:38+00:00">December 19, 2017</time></a></span></div>
+	
+	<div class="entry-content clearfix">
+		<p>Thank you to our readers! The COAR team is signing off for the remainder of the 2017 year. We hope you all have safe and healthy holidays and hope to see you in the new year.</p>
+<p>The COAR Team.</p>
+	</div>
+
+	</article>
+
+				
+					
+					
+<article id="post-2784" class="post-2784 post type-post status-publish format-standard hentry category-cyber-defense-competition">
+		<header class="entry-header">
+		<h2 class="entry-title">
+			<a href="https://coar-staging.risc.anl.gov/gsscdc/" title="GSS’s 2017 Cyber Defense Competition">GSS’s 2017 Cyber Defense Competition</a>
+		</h2>
+	</header>
+
+	<div class="entry-meta">		<span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="https://coar-staging.risc.anl.gov/author/coar/" title="COAR">COAR</a></span></span>
+		<span class="cat-links"><i class="fa fa-folder-open"></i><a href="https://coar-staging.risc.anl.gov/category/cyber-defense-competition/" rel="category tag">Cyber Defense Competition</a></span>
+		<span class="sep"><span class="post-format"><i class="fa "></i></span></span>
+
+		<span class="posted-on"><a href="https://coar-staging.risc.anl.gov/gsscdc/" title="8:00 am" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-12-14T08:00:55+00:00">December 14, 2017</time><time class="updated" datetime="2017-12-15T20:55:04+00:00">December 15, 2017</time></a></span></div>
+	
+	<div class="entry-content clearfix">
+		<figure id="attachment_2785" aria-describedby="caption-attachment-2785" style="width: 386px" class="wp-caption alignright"><a href="/wp-content/uploads/2017/12/Indiana-Tech_31842D269.jpg"><img loading="lazy" class=" wp-image-2785" src="/wp-content/uploads/2017/12/Indiana-Tech_31842D269.jpg" alt="" width="386" height="256" /></a><figcaption id="caption-attachment-2785" class="wp-caption-text">Cyber Defense Competition 2017 Indiana Tech</figcaption></figure>
+<p>GSS’s <a href="https://coar.risc.anl.gov/">Cyber Operations, Analysis and Research</a> (COAR) team partnered with Education to host their <a href="https://cyberdefense.anl.gov/">Second Annual Cyber Defense Competition</a> (CDC) on Saturday, April 1, 2017. Students from varying levels of higher education and regions within the United States competed to defend a real-world simulation of an energy and water distribution system.</p>
+<p>To find out how the day went, we asked COAR’s Amanda Joyce. <a href="https://coar-staging.risc.anl.gov/gsscdc/" class="more-link"><span>Read more</span></a></p>
+	</div>
+
+	</article>
+
+				
+					
+					
+<article id="post-2423" class="post-2423 post type-post status-publish format-standard hentry category-cyber-analysis">
+		<header class="entry-header">
+		<h2 class="entry-title">
+			<a href="https://coar-staging.risc.anl.gov/coar-gss-featured-chicago-magazine/" title="COAR and GSS Featured in Chicago Magazine">COAR and GSS Featured in Chicago Magazine</a>
+		</h2>
+	</header>
+
+	<div class="entry-meta">		<span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="https://coar-staging.risc.anl.gov/author/coar/" title="COAR">COAR</a></span></span>
+		<span class="cat-links"><i class="fa fa-folder-open"></i><a href="https://coar-staging.risc.anl.gov/category/cyber-analysis/" rel="category tag">Cyber Analysis</a></span>
+		<span class="sep"><span class="post-format"><i class="fa "></i></span></span>
+
+		<span class="posted-on"><a href="https://coar-staging.risc.anl.gov/coar-gss-featured-chicago-magazine/" title="3:11 pm" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-12-05T15:11:46+00:00">December 5, 2017</time><time class="updated" datetime="2017-12-07T17:07:12+00:00">December 7, 2017</time></a></span></div>
+	
+	<div class="entry-content clearfix">
+		<p><a href="/wp-content/uploads/2017/12/C5sK780XQAE7x8p.jpg"><img loading="lazy" class="alignleft  wp-image-2781" src="/wp-content/uploads/2017/12/C5sK780XQAE7x8p.jpg" alt="" width="484" height="323" /></a>On Monday, February 27, 2017, Chicago Magazine published an article by Bryan Smith, entitled <em><a href="http://www.chicagomag.com/Chicago-Magazine/February-2017/The-Doomsday-Squad/">The Doomsday Squad</a> </em>and featuring three members of Argonne&#8217;s Global Security Sciences (GSS) division.  The article highlights the efforts of Charles Macal of the Systems Science Center (SSC), Megan Clifford of the Risk and Infrastructure Science Center (RISC), Nate Evans of RISC&#8217;s Cyber Analysis, Operations, and Research (COAR) group, and the teams that each of them leads.</p>
+<p>Smith describes the work of these groups as a bold and brave plunge into the realm of potential disaster for the purpose of optimizing the integrity of Chicago&#8217;s critical infrastructure: transportation, power, cyber-infrastructure, etc.  Smith writes, &#8220;Harnessing Argonne&#8217;s massive computing power, they think about precisely what most of us would prefer not to&#8230; they imagine the disastrous, envision the catastrophic, and intricately model the apocalypse in its various and horrific guises&#8230; building minutely detailed predictive models that show how a given disaster might unfold and, not for nothing, how we might alter the story before the plot turns ugly.&#8221; <a href="https://coar-staging.risc.anl.gov/coar-gss-featured-chicago-magazine/" class="more-link"><span>Read more</span></a></p>
+	</div>
+
+	</article>
+
+				
+					
+					
+<article id="post-2454" class="post-2454 post type-post status-publish format-standard hentry category-cyber-analysis">
+		<header class="entry-header">
+		<h2 class="entry-title">
+			<a href="https://coar-staging.risc.anl.gov/cyber-tabletop-exercises-for-sports-entertainment-venues/" title="Cyber-Tabletop Exercises for Sports-Entertainment Venues">Cyber-Tabletop Exercises for Sports-Entertainment Venues</a>
+		</h2>
+	</header>
+
+	<div class="entry-meta">		<span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="https://coar-staging.risc.anl.gov/author/coar/" title="COAR">COAR</a></span></span>
+		<span class="cat-links"><i class="fa fa-folder-open"></i><a href="https://coar-staging.risc.anl.gov/category/cyber-analysis/" rel="category tag">Cyber Analysis</a></span>
+		<span class="sep"><span class="post-format"><i class="fa "></i></span></span>
+
+		<span class="posted-on"><a href="https://coar-staging.risc.anl.gov/cyber-tabletop-exercises-for-sports-entertainment-venues/" title="8:54 pm" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-11-28T20:54:41+00:00">November 28, 2017</time><time class="updated" datetime="2017-12-06T21:27:07+00:00">December 6, 2017</time></a></span></div>
+	
+	<div class="entry-content clearfix">
+		<p><a href="/wp-content/uploads/2017/03/stadium-1750100_960_720.jpg"><img loading="lazy" class="wp-image-2772 alignright" src="/wp-content/uploads/2017/03/stadium-1750100_960_720.jpg" alt="" width="407" height="225" /></a>Many sports teams of both the professional and collegiate levels perform tabletop exercises to prepare for various, potential emergencies, ranging from severe weather to terrorist attacks.  While such organizations tend to place a heavy emphasis on physical preparedness, there lies an often-underestimated potential for a cyberattack that can detrimentally affect sporting events as well.</p>
+<p>Though many sports teams increasingly account for cyber threats, the acknowledgment seems to stop at basic information technology (IT) or information-related hacks.  Sports organizations must begin to realize that cyberattacks can be much more sophisticated once believed, with hackers potentially gaining access to restricted areas, tampering with emergency systems, or even compromising a venue’s visual infrastructure.  Incorporating cyber preparedness into sports organizations’ tabletop exercises is an excellent first step toward increasing cyber resilience in sports entertainment. <a href="https://coar-staging.risc.anl.gov/cyber-tabletop-exercises-for-sports-entertainment-venues/" class="more-link"><span>Read more</span></a></p>
+	</div>
+
+	</article>
+
+				
+					
+					
+<article id="post-2729" class="post-2729 post type-post status-publish format-standard hentry category-cyber-analysis category-cyber-operations category-cyber-research category-cyber-training">
+		<header class="entry-header">
+		<h2 class="entry-title">
+			<a href="https://coar-staging.risc.anl.gov/women-in-cybersecurity/" title="Women in Cybersecurity">Women in Cybersecurity</a>
+		</h2>
+	</header>
+
+	<div class="entry-meta">		<span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="https://coar-staging.risc.anl.gov/author/coar/" title="COAR">COAR</a></span></span>
+		<span class="cat-links"><i class="fa fa-folder-open"></i><a href="https://coar-staging.risc.anl.gov/category/cyber-analysis/" rel="category tag">Cyber Analysis</a>, <a href="https://coar-staging.risc.anl.gov/category/cyber-operations/" rel="category tag">Cyber Operations</a>, <a href="https://coar-staging.risc.anl.gov/category/cyber-research/" rel="category tag">Cyber Research</a>, <a href="https://coar-staging.risc.anl.gov/category/cyber-training/" rel="category tag">Cyber Training</a></span>
+		<span class="sep"><span class="post-format"><i class="fa "></i></span></span>
+
+		<span class="posted-on"><a href="https://coar-staging.risc.anl.gov/women-in-cybersecurity/" title="2:31 pm" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-11-06T14:31:07+00:00">November 6, 2017</time><time class="updated" datetime="2017-12-06T21:29:07+00:00">December 6, 2017</time></a></span></div>
+	
+	<div class="entry-content clearfix">
+		<h2>The Current Trend</h2>
+<p>Despite intense growth in the field of cybersecurity, women continue to form merely a small minority of the cybersecurity workforce.  The industry currently boasts approximately one million available jobs, and the number is expected to increase to 1.5 million available jobs by 2019.  However, women only hold about one in every 10 positions<a href="#_ftn1" name="_ftnref1">[1]</a> in the cybersecurity industry, constituting a meager 8-13 percent<a href="#_ftn2" name="_ftnref2">[2]</a> of cybersecurity professionals overall.  Figure 1 below illustrates a comparison of the amount of women in computer science-related studies versus alternative fields:</p>
+<p><img loading="lazy" class="size-full wp-image-2717 aligncenter" src="/wp-content/uploads/2017/09/2.png" alt="" width="585" height="392" /></p>
+<p>&nbsp;</p>
+<p>A number of possible reasons have been suggested for the lack of women in the cybersecurity workforce.  For example, the information-security organization CREST discusses a deficiency in computer-science courses among secondary schools.<a href="#_ftn3" name="_ftnref3">[3]</a>  Without proper exposure to the field, many women remain unaware of their opportunities.  Similarly, the workforce itself has witnessed a lack of mentorship that encourages women to pursue advancement in cybersecurity.<a href="#_ftn4" name="_ftnref4">[4]</a>  Instead of encouragement, the National Cybersecurity Institute (NCI) argues that the marketing industry tends to use aggressive, more masculine terminology in relation to cybersecurity, selecting phrases such as “combat cyberthreats” or “fortify digital defenses”.<a href="#_ftn5" name="_ftnref5">[5]</a>  The entertainment industry also tends to portray men more often than women in mathematical, scientific, or technical television and film roles.<sup>3</sup>  As a result, women may pursue fields that offer a more welcoming environment. <a href="https://coar-staging.risc.anl.gov/women-in-cybersecurity/" class="more-link"><span>Read more</span></a></p>
+	</div>
+
+	</article>
+
+				
+					
+					
+<article id="post-2716" class="post-2716 post type-post status-publish format-standard hentry category-cyber-analysis category-cyber-defense-competition">
+		<header class="entry-header">
+		<h2 class="entry-title">
+			<a href="https://coar-staging.risc.anl.gov/coar-members-attend-grace-hopper/" title="COAR members attend Grace Hopper">COAR members attend Grace Hopper</a>
+		</h2>
+	</header>
+
+	<div class="entry-meta">		<span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="https://coar-staging.risc.anl.gov/author/coar/" title="COAR">COAR</a></span></span>
+		<span class="cat-links"><i class="fa fa-folder-open"></i><a href="https://coar-staging.risc.anl.gov/category/cyber-analysis/" rel="category tag">Cyber Analysis</a>, <a href="https://coar-staging.risc.anl.gov/category/cyber-defense-competition/" rel="category tag">Cyber Defense Competition</a></span>
+		<span class="sep"><span class="post-format"><i class="fa "></i></span></span>
+
+		<span class="posted-on"><a href="https://coar-staging.risc.anl.gov/coar-members-attend-grace-hopper/" title="6:42 pm" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-10-04T18:42:06+00:00">October 4, 2017</time><time class="updated" datetime="2017-12-06T21:30:27+00:00">December 6, 2017</time></a></span></div>
+	
+	<div class="entry-content clearfix">
+		<p>The COAR team&#8217;s Jennifer Fowler and Amanda Joyce will be presenting on their poster at <a href="https://ghc.anitaborg.org/" target="_blank" rel="noopener">Grace Hopper</a> on October 4, 2017 in Orlando, Florida. The Grace Hopper Celebration of Women in Computing is the world&#8217;s largest gathering of women technologists. It is produced by the Anita Borg Institute and presented in partnership with ACM.<a href="https://ghc.anitaborg.org/" target="_blank" rel="noopener">[1]</a><a href="/wp-content/uploads/2017/09/JA.jpg"><img loading="lazy" class="wp-image-2758 alignright" src="/wp-content/uploads/2017/09/JA.jpg" alt="" width="247" height="223" /></a></p>
+<p>The poster entitled, &#8220;<a href="https://www.eiseverywhere.com/ehome/index.php?eventid=212774&amp;tabid=556987&amp;cid=1738254&amp;sessionid=16582815&amp;sessionchoice=1&amp;" target="_blank" rel="noopener">Argonne National Laboratory&#8217;s Cyber Defense Competition &#8211; Defending Tomorrow&#8217;s Infrastructure Today</a>&#8221; looks to highlight the gender gap in cyber security and computer science and how <a href="https://cyberdefense.anl.gov" target="_blank" rel="noopener">Argonne&#8217;s Cyber Defense Competition</a> is hoping to help females become more aware of the many different paths of cyber security through a hands-on defense approach. <a href="https://coar-staging.risc.anl.gov/coar-members-attend-grace-hopper/" class="more-link"><span>Read more</span></a></p>
+	</div>
+
+	</article>
+
+				
+					
+					
+<article id="post-2544" class="post-2544 post type-post status-publish format-standard hentry category-cyber-research">
+		<header class="entry-header">
+		<h2 class="entry-title">
+			<a href="https://coar-staging.risc.anl.gov/mtd-named-2017-rd-100-finalist/" title="MORE MTD Named 2017 R&#038;D 100 Finalist">MORE MTD Named 2017 R&#038;D 100 Finalist</a>
+		</h2>
+	</header>
+
+	<div class="entry-meta">		<span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="https://coar-staging.risc.anl.gov/author/coar/" title="COAR">COAR</a></span></span>
+		<span class="cat-links"><i class="fa fa-folder-open"></i><a href="https://coar-staging.risc.anl.gov/category/cyber-research/" rel="category tag">Cyber Research</a></span>
+		<span class="sep"><span class="post-format"><i class="fa "></i></span></span>
+
+		<span class="posted-on"><a href="https://coar-staging.risc.anl.gov/mtd-named-2017-rd-100-finalist/" title="2:16 pm" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-09-21T14:16:07+00:00">September 21, 2017</time><time class="updated" datetime="2017-12-07T15:15:51+00:00">December 7, 2017</time></a></span></div>
+	
+	<div class="entry-content clearfix">
+		<p><a href="/wp-content/uploads/2017/09/RD.jpg"><img loading="lazy" class="wp-image-2754 alignright" src="/wp-content/uploads/2017/09/RD.jpg" alt="" width="298" height="283" /></a>In an <em>R&amp;D Magazine </em><a href="https://www.rdmag.com/article/2017/08/2017-r-d-100-awards-finalists-announced">press release</a> on August 9th, the R&amp;D 100 Awards Committee announced its 2017 finalists, with COAR&#8217;s patented technology, Multiple OS Rotational Environment Moving Target Defense (MORE MTD), among them.</p>
+<p>2017 R&amp;D 100 is the 55th annual awards program that recognizes prestigious innovations of science or technology.  It awards 100 ideas, each of which falls into one of five categories: Analytical/Test; IT/Electrical; Mechanical Devices/Materials; Process/Prototyping; and Software/Services, and provides four Special Recognition Awards as well: Market Disruptor Services; Market Disruptor Products; Corporate Social Responsibility; and Green Tech. <a href="https://coar-staging.risc.anl.gov/mtd-named-2017-rd-100-finalist/" class="more-link"><span>Read more</span></a></p>
+	</div>
+
+	</article>
+
+				
+						<ul class="default-wp-page clearfix">
+			<li class="previous"><a href="https://coar-staging.risc.anl.gov/recent-news/page/2/" >&larr; Previous</a></li>
+			<li class="next"></li>
+		</ul>
+		
+			
+		</div><!-- #content -->
+	</div><!-- #primary -->
+	
+	
+<div id="secondary">
+			
+		<aside id="archives-6" class="widget widget_archive"><h3 class="widget-title"><span>Archives</span></h3>
+			<ul>
+					<li><a href='https://coar-staging.risc.anl.gov/2018/02/'>February 2018</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2018/01/'>January 2018</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2017/12/'>December 2017</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2017/11/'>November 2017</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2017/10/'>October 2017</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2017/09/'>September 2017</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2017/06/'>June 2017</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2017/04/'>April 2017</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2017/03/'>March 2017</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2017/02/'>February 2017</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2017/01/'>January 2017</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2016/12/'>December 2016</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2016/11/'>November 2016</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2016/10/'>October 2016</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2016/09/'>September 2016</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2016/08/'>August 2016</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2016/07/'>July 2016</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2016/06/'>June 2016</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2016/05/'>May 2016</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2016/04/'>April 2016</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2016/03/'>March 2016</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2016/02/'>February 2016</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2015/12/'>December 2015</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2015/11/'>November 2015</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2015/10/'>October 2015</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2015/09/'>September 2015</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2015/08/'>August 2015</a></li>
+	<li><a href='https://coar-staging.risc.anl.gov/2014/08/'>August 2014</a></li>
+			</ul>
+
+			</aside>	</div>	
+	
+
+		</div><!-- .inner-wrap -->
+	</div><!-- #main -->	
+			<footer id="colophon" class="clearfix">	
+			<div class="footer-widgets-wrapper">
+	<div class="inner-wrap">
+		<div class="footer-widgets-area clearfix">
+			<div class="tg-one-third">
+				<aside id="nav_menu-4" class="widget widget_nav_menu"><div class="menu-menu-1-container"><ul id="menu-menu-2" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-454"><a title="Cyber Operations, Analysis, and Research Home" href="https://coar-staging.risc.anl.gov/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a title="About Cyber Operations Analysis and Research at Argonne" href="https://coar-staging.risc.anl.gov/aboutcoar/">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a title="Partners of Cyber Operations Analysis and Research at Argonne" href="https://coar-staging.risc.anl.gov/partners/">Work With Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207"><a href="https://coar-staging.risc.anl.gov/research/">Research</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2818 current_page_item current_page_parent menu-item-2824"><a href="https://coar-staging.risc.anl.gov/recent-news/" aria-current="page">Recent News</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-633"><a href="https://coar-staging.risc.anl.gov/resources/">Resources</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2714"><a href="https://coar-staging.risc.anl.gov/resources/cybersecurity-training-course-materials/">Cybersecurity Training Course Materials</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="Careers with COAR at ANL National Laboratory" href="https://coar-staging.risc.anl.gov/careers/">Careers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2675"><a href="https://coar-staging.risc.anl.gov/student-program/">Student Program</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2680"><a href="https://coar-staging.risc.anl.gov/student-program/summer-2017-projects/">Summer 2017 Projects</a></li>
+</ul>
+</li>
+</ul></div></aside>			</div>
+			<div class="tg-one-third">
+				<aside id="search-8" class="widget widget_search"><h3 class="widget-title"><span>Search</span></h3><form action="https://coar-staging.risc.anl.gov/"id="search-form" class="searchform clearfix" method="get">
+	<input type="text" placeholder="Search" class="s field" name="s">
+	<input type="submit" value="Search" id="search-submit" name="submit" class="submit">
+</form><!-- .searchform --></aside>			</div>
+			<div class="tg-one-third tg-one-third-last">
+				<aside id="text-9" class="widget widget_text">			<div class="textwidget"><h5 class="red-head">this site is running on...</h5><div id="accordion"><br />
+<h3> <a href='http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6900086'><!--<object>
+ <param name="more-anim" value="/more-anim12.swf" />
+<param name="wmode" value="transparent" />
+  <embed wmode=transparent allowscriptaccess="always" src="/more-anim12.swf" width=200 height=50 title="MORE-MTD logo"></embed>
+</object>-->
+<img src=/more-anim12-FOR_GIF2.gif width=200 height=50 /></a>  </h3>
+<div class="live host">This site runs on our patented <a href='http://ieeexplore.ieee.org/xpls/icp.jsp?arnumber=6900086'>more mtd</a> technology.  The previous live host was:</div><br />
+<div id="more-mtd-content">
+</div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56674559-1', 'auto');
+  ga('send', 'pageview');
+
+</script></div>
+		</aside>			</div>
+		</div>
+	</div>
+</div>	
+			<div class="footer-socket-wrapper clearfix">
+				<div class="inner-wrap">
+					<div class="footer-socket-area">
+						<div class="copyright">Copyright &copy; 2020 <a href="https://coar-staging.risc.anl.gov/" title="Cyber Operations, Analysis, and Research" ><span>Cyber Operations, Analysis, and Research</span></a>. Powered by <a href="https://wordpress.org" target="_blank" title="WordPress"><span>WordPress</span></a>. Theme: Accelerate by <a href="https://themegrill.com/themes/accelerate" target="_blank" title="ThemeGrill" rel="author"><span>ThemeGrill</span></a>.</div>						<nav class="footer-menu" class="clearfix">
+									    			</nav>
+					</div>
+				</div>
+			</div>			
+		</footer>
+		<a href="#masthead" id="scroll-up"><i class="fa fa-long-arrow-up"></i></a>	
+	</div><!-- #page -->
+	<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/coar-staging.risc.anl.gov\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://coar-staging.risc.anl.gov/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.3.1' id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://coar-staging.risc.anl.gov/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='https://coar-staging.risc.anl.gov/wp-content/themes/accelerate-child/local.js' id='custom-js'></script>
+<script type='text/javascript' src='https://coar-staging.risc.anl.gov/wp-content/themes/accelerate/js/navigation.js?ver=5.6' id='accelerate-navigation-js'></script>
+<script type='text/javascript' src='https://coar-staging.risc.anl.gov/wp-content/themes/accelerate/js/skip-link-focus-fix.js?ver=5.6' id='accelerate-skip-link-focus-fix-js'></script>
+<script type='text/javascript' src='https://coar-staging.risc.anl.gov/wp-includes/js/wp-embed.min.js?ver=5.6' id='wp-embed-js'></script>
+</body>
+</html>

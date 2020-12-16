@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"e5705e4eea",applicationID:"467445125"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-7048895-1", {"cookieDomain":"auto"});ga("send", "pageview");</script>
+<link rel="canonical" href="https://www.alcf.anl.gov/news/alcf-data-science-program-seeks-proposals-data-and-learning-projects-1" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/sites/default/files/favicon_1.ico" type="image/vnd.microsoft.icon" />
+<link rel="revision" href="https://www.alcf.anl.gov/news/alcf-data-science-program-seeks-proposals-data-and-learning-projects-1" />
+
+    <title>ALCF Data Science Program seeks proposals for data and learning projects | Argonne Leadership Computing Facility</title>
+    <link rel="stylesheet" href="https://use.typekit.net/pxo0nvo.css">
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_E20d32FFgQ3VY_DXrkkBgtipx8uyX_1BTYL_CMy8T4U.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_NDa87YXGHUrOSlTSLYFEp0ClAVQwd1P6-KGroB_e00E.css" />
+
+    
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+<script src="/sites/default/files/js/js_QHqjxhGPGgZFwOfW92tmrVpssmC1sbO0zDG4TgLmaEI.js"></script>
+
+  </head>
+  <body class="is-ultimenu-canvas is-ultimenu-canvas--hover page-node-41346 path-news-alcf-data-science-program-seeks-proposals-data-and-learning-projects-1 path-node page-node-type-article">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+<!-- Header -->
+<!-- --------------------------------------------------------------------- -->
+
+<!-- component: header -->
+<header class="header" id="header">
+<div class="grid">
+
+	<div class="header__site-title">
+		<h1><a href="/" title="ALCF Home">Argonne Leadership Computing Facility</a></h1>		
+	</div>
+
+	<nav class="header__nav-primary">
+		  <div class="region region-primary-menu">
+    <div id="block-ultimenumainmenu" class="block block-ultimenu block-ultimenu-blockultimenu-main">
+  
+    
+      <ul id="ultimenu-main" data-ultimenu="main" class="ultimenu ultimenu--hover ultimenu--main ultimenu--htb ultimenu--horizontal"><li class="ultimenu__item uitem has-ultimenu"><a href="/alcf-resources" data-drupal-link-system-path="node/32087" class="ultimenu__link">ALCF Resources<span class="caret" aria-hidden="true"></span></a><section class="ultimenu__flyout"><div class="ultimenu__region region region-ultimenu-main-alcf-resources"><div class="ultimenusub ultimenusub--main-alcf-resources"><ul class="menu"><li class="menu-item menu-item--expanded"><span>Computing Resources</span><ul class="menu"><li class="menu-item"><a href="/aurora" data-drupal-link-system-path="node/38116">Aurora</a></li><li class="menu-item"><a href="/alcf-resources/theta" data-drupal-link-system-path="node/32511">Theta</a></li><li class="menu-item"><a href="/alcf-resources/cooley" data-drupal-link-system-path="node/32506">Cooley</a></li><li class="menu-item"><a href="/alcf-resources/evaluation-testbeds" data-drupal-link-system-path="node/32521">Evaluation Testbeds</a></li><li class="menu-item"><a href="/alcf-resources/storage-and-networking" data-drupal-link-system-path="node/32526">Storage and Networking</a></li></ul></li><li class="menu-item menu-item--expanded"><span>Facility Expertise</span><ul class="menu"><li class="menu-item"><a href="/alcf-resources/facility-expertise" data-drupal-link-system-path="node/32531">Facility Expertise</a></li></ul></li></ul></div><div id="block-megamenublurbresources" class="block block-block-content block-block-content648fd3b4-7bad-4c54-bdfc-32416fc2ff4b"><div class="clearfix text-formatted field field--name-field-block-body field--type-text-long field--label-hidden field__item"><h3>Leadership Computing Resources</h3><p>The ALCF provides users with access to supercomputing resources that are significantly more powerful than systems typically used for open scientific research.</p></div></div><div id="block-featuredresource" class="block block-block-content block-block-contentba77b37b-ed19-4bfc-a4a8-24ab62598cc2"><div class="clearfix text-formatted field field--name-field-block-body field--type-text-long field--label-hidden field__item"><div class="dropdown__featured"><div class="dropdown__featured-title"><h3><a href="https://aurora.alcf.anl.gov">Featured: Aurora</a></h3></div><div class="dropdown__featured-image"><div class="img-wrapper"><a href="https://aurora.alcf.anl.gov"><img alt="Aurora" data-entity-type="" data-entity-uuid="" src="/sites/default/files/styles/medium/public/2019-11/Aurora_Grey_bg.png" /></a></div></div></div></div></div></div></section></li><li class="ultimenu__item uitem has-ultimenu"><a href="/science" data-drupal-link-system-path="node/32088" class="ultimenu__link">Science<span class="caret" aria-hidden="true"></span></a><section class="ultimenu__flyout"><div class="ultimenu__region region region-ultimenu-main-science"><div class="ultimenusub ultimenusub--main-science"><ul class="menu"><li class="menu-item menu-item--expanded"><span>Output</span><ul class="menu"><li class="menu-item"><a href="/science/projects" data-drupal-link-system-path="science/projects">Projects</a></li><li class="menu-item"><a href="/science/publications" data-drupal-link-system-path="science/publications">Publications</a></li></ul></li><li class="menu-item menu-item--expanded"><span>Allocation Programs</span><ul class="menu"><li class="menu-item"><a href="/science/incite-allocation-program" data-drupal-link-system-path="node/32096">INCITE Program</a></li><li class="menu-item"><a href="/science/alcc-allocation-program" data-drupal-link-system-path="node/32536">ALCC</a></li><li class="menu-item"><a href="/science/adsp-allocation-program" data-drupal-link-system-path="node/32551">ADSP Program</a></li><li class="menu-item"><a href="/science/directors-discretionary-allocation-program" data-drupal-link-system-path="node/32541">Director’s Discretionary</a></li><li class="menu-item"><a href="/science/early-science-program" data-drupal-link-system-path="node/32546">Early Science Program</a></li></ul></li></ul></div><div id="block-megamenublurbscience" class="block block-block-content block-block-contente4fc594f-f1a4-4994-bad3-d226c002f93c"><div class="clearfix text-formatted field field--name-field-block-body field--type-text-long field--label-hidden field__item"><h3>Computational Science</h3><p>The ALCF is accelerating scientific discoveries in many disciplines, ranging from chemistry and engineering to physics and materials science.</p></div></div><div id="block-menufeaturedscience" class="block block-block-content block-block-contentb03d50ce-4cc9-4f41-a168-5a571ac41873"><div class="clearfix text-formatted field field--name-field-block-body field--type-text-long field--label-hidden field__item"><div class="dropdown__featured"><div class="dropdown__featured-title"><h3><a href="/science/projects/Engineering">Featured: Engineering</a></h3></div><div class="dropdown__featured-image"><div class="img-wrapper"><a href="/science/projects/Engineering"><img alt="Visualization" data-entity-type="" data-entity-uuid="" src="/sites/default/files/styles/475x267/public/scheel.png" /></a></div></div></div></div></div></div></section></li><li class="ultimenu__item uitem has-ultimenu"><a href="/community-and-partnerships" data-drupal-link-system-path="node/32089" class="ultimenu__link">Community and Partnerships<span class="caret" aria-hidden="true"></span></a><section class="ultimenu__flyout"><div class="ultimenu__region region region-ultimenu-main-community-and-partnerships"><div class="ultimenusub ultimenusub--main-community-and-partnerships"><ul class="menu"><li class="menu-item menu-item--expanded"><span>Partnerships</span><ul class="menu"><li class="menu-item"><a href="/community-and-partnerships/industry" data-drupal-link-system-path="node/32571">Industry</a></li><li class="menu-item"><a href="/community-and-partnerships/partners" data-drupal-link-system-path="node/33091">Partners</a></li></ul></li><li class="menu-item menu-item--expanded"><span>Educational Outreach</span><ul class="menu"><li class="menu-item"><a href="/community-and-partnerships/women-in-stem" data-drupal-link-system-path="node/32561">Women in STEM</a></li><li class="menu-item"><a href="/community-and-partnerships/student-outreach" data-drupal-link-system-path="node/32556">Student Outreach</a></li><li class="menu-item"><a href="/community-and-partnerships/training-researchers" data-drupal-link-system-path="node/33086">Training Researchers</a></li></ul></li></ul></div><div id="block-megamenublurbcommunity" class="block block-block-content block-block-content79f5429b-71e4-4b4b-b04f-60efea563fc9"><div class="clearfix text-formatted field field--name-field-block-body field--type-text-long field--label-hidden field__item"><h3>Growing the HPC Community</h3><p>The ALCF is committed to providing training and outreach opportunities that prepare researchers to efficiently use its leadership computing systems, while also cultivating a diverse and skilled HPC workforce for the future.</p></div></div></div></section></li><li class="ultimenu__item uitem has-ultimenu"><a href="/about" data-drupal-link-system-path="node/32090" class="ultimenu__link">About<span class="caret" aria-hidden="true"></span></a><section class="ultimenu__flyout"><div class="ultimenu__region region region-ultimenu-main-about"><div class="ultimenusub ultimenusub--main-about"><ul class="menu"><li class="menu-item menu-item--expanded"><span>Get to Know More</span><ul class="menu"><li class="menu-item"><a href="/about/people" data-drupal-link-system-path="about/people">People</a></li><li class="menu-item"><a href="/about/history" data-drupal-link-system-path="node/32476">History</a></li><li class="menu-item"><a href="/about/user-advisory-council" data-drupal-link-system-path="node/33081">User Advisory Council</a></li></ul></li><li class="menu-item menu-item--expanded"><span>Visit</span><ul class="menu"><li class="menu-item"><a href="/about/visiting-alcf" data-drupal-link-system-path="node/32486">Visiting ALCF</a></li><li class="menu-item"><a href="/about/tours" data-drupal-link-system-path="node/32491">Tours</a></li></ul></li><li class="menu-item menu-item--expanded"><span>Latest</span><ul class="menu"><li class="menu-item"><a href="/news" data-drupal-link-system-path="node/32083">News</a></li><li class="menu-item"><a href="/about/careers" data-drupal-link-system-path="node/32481">Careers</a></li></ul></li><li class="menu-item menu-item--expanded"><span>Press Kits</span><ul class="menu"><li class="menu-item"><a href="/alcf-media-kit" data-drupal-link-system-path="node/35041">ALCF Media Kit</a></li><li class="menu-item"><a href="/aurora-media-kit" data-drupal-link-system-path="node/38826">Aurora Media Kit</a></li><li class="menu-item"><a href="/report-archive" data-drupal-link-system-path="node/38201">Reports Archive</a></li></ul></li></ul></div><div id="block-megamenublurbabout" class="block block-block-content block-block-content699d6565-e97a-4346-a6a6-35537d1340eb"><div class="clearfix text-formatted field field--name-field-block-body field--type-text-long field--label-hidden field__item"><h3>Accelerating Science</h3><p>The Argonne Leadership Computing Facility enables breakthroughs in science and engineering by providing supercomputing resources and expertise to the research community.</p></div></div></div></section></li><li class="ultimenu__item uitem has-ultimenu"><a href="/support-center" data-drupal-link-system-path="node/32085" class="ultimenu__link">Support Center<span class="caret" aria-hidden="true"></span></a><section class="ultimenu__flyout"><div class="ultimenu__region region region-ultimenu-main-support-center"><div class="ultimenusub ultimenusub--main-support-center"><ul class="menu"><li class="menu-item menu-item--expanded"><span>Current</span><ul class="menu"><li class="menu-item"><a href="/support-center/machine-status" data-drupal-link-system-path="node/33601">Machine Status</a></li><li class="menu-item"><a href="/support-center/facility-updates" data-drupal-link-system-path="support-center/facility-updates">Facility Updates</a></li></ul></li><li class="menu-item menu-item--expanded"><span>Training</span><ul class="menu"><li class="menu-item"><a href="/support-center/training-assets" data-drupal-link-system-path="support-center/training-assets">Training Assets</a></li><li class="menu-item"><a href="/support-center/training-overview" data-drupal-link-system-path="node/32501">Training Overview</a></li><li class="menu-item"><a href="/events" data-drupal-link-system-path="node/33336">Training and Events</a></li></ul></li></ul></div><div id="block-megamenublurbsupport" class="block block-block-content block-block-content9b937323-ca21-4878-9049-bfa6f7f305cc"><div class="clearfix text-formatted field field--name-field-block-body field--type-text-long field--label-hidden field__item"><h3>Support Center</h3><p>The ALCF Support Center assists users with support requests related to their ALCF projects.</p><div class="small-text"><p><strong>Help Desk</strong><br />
+Hours: 9:00am-5:00pm CT M-F<br />
+Email: <a href="mailto:support@alcf.anl.gov">support@alcf.anl.gov</a></p></div></div></div><nav role="navigation" aria-labelledby="block-guides-3-menu" id="block-guides-3" class="block block-menu navigation menu--guides"><h2 id="block-guides-3-menu">Guides</h2><ul class="menu"><li class="menu-item menu-item--collapsed"><a href="/support-center/get-started" data-drupal-link-system-path="node/32051">Get Started</a></li><li class="menu-item menu-item--collapsed"><a href="/support-center/account-and-project-management" data-drupal-link-system-path="node/32071">Account and Project Management</a></li><li class="menu-item menu-item--collapsed"><a href="/support-center/theta" data-drupal-link-system-path="node/32056">Theta</a></li><li class="menu-item menu-item--collapsed"><a href="/support-center/cooley" data-drupal-link-system-path="node/32066">Cooley</a></li><li class="menu-item menu-item--collapsed"><a href="/support-center/aurora" data-drupal-link-system-path="node/35746">Aurora</a></li><li class="menu-item menu-item--collapsed"><a href="/support-center/facility-policies" data-drupal-link-system-path="node/32076">Facility Policies</a></li></ul></nav><div id="block-menufeaturedguide" class="block block-block-content block-block-content53dc1893-8aad-446a-9b39-35f5a116431a"><div class="clearfix text-formatted field field--name-field-block-body field--type-text-long field--label-hidden field__item"><div class="dropdown__featured"><div class="dropdown__featured-title"><h3><a href="/get-started">Featured: Get Started</a></h3></div><div class="dropdown__featured-image"><div class="img-wrapper"><a href="/get-started"><img alt="Diagram Illustration" data-entity-type="" data-entity-uuid="" src="/sites/default/files/styles/475x267/public/2019-11/getstarted_map.png" /></a></div></div></div></div></div></div></section></li></ul>
+  </div>
+<nav role="navigation" aria-labelledby="block-tactical-2-menu" id="block-tactical-2" class="block block-menu navigation menu--tactical">
+            
+  <h2 class="visually-hidden" id="block-tactical-2-menu">Tactical</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/news" data-drupal-link-system-path="node/32083">News</a>
+              </li>
+                <li class="menu-item">
+        <a href="/events" data-drupal-link-system-path="node/33336">Events</a>
+              </li>
+                <li class="menu-item">
+        <a href="/about/people" data-drupal-link-system-path="about/people">People</a>
+              </li>
+                <li class="menu-item">
+        <a href="/about/careers" data-drupal-link-system-path="node/32481">Careers</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+	</nav>
+
+	<nav class="header__nav-secondary">		
+		<!-- wrapper needed to hang right -->
+		<div class="header__nav-secondary--right">
+		    <div class="header__menu-toggle">Menu <i class="fas fa-bars"></i></div>
+			  <div class="region region-secondary-menu">
+    <nav role="navigation" aria-labelledby="block-alcf-tactical-menu" id="block-alcf-tactical" class="block block-menu navigation menu--tactical">
+            
+  <h2 class="visually-hidden" id="block-alcf-tactical-menu">Tactical</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/news" data-drupal-link-system-path="node/32083">News</a>
+              </li>
+                <li class="menu-item">
+        <a href="/events" data-drupal-link-system-path="node/33336">Events</a>
+              </li>
+                <li class="menu-item">
+        <a href="/about/people" data-drupal-link-system-path="about/people">People</a>
+              </li>
+                <li class="menu-item">
+        <a href="/about/careers" data-drupal-link-system-path="node/32481">Careers</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+			<div class="header__search-toggle"><i class="icon-search"></i></div>			
+			<div class="header__search">
+				<form action="/search" method="get">
+				
+				  	<label for='header-search'>
+				  		<span class='visually-hidden'>Search</span>
+				  	</label>
+				  	
+					<input type="text" placeholder="search" name="search" id="header-search">
+					<input value="&#xe986;" type="submit" alt="Search">
+				</form>
+			</div>
+			
+		</div>
+	</nav>
+	
+
+
+</div>
+</header>
+
+  <div class="region region-highlighted">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+
+
+
+
+<section class="section-1">
+	<div class="grid">
+	
+		<!-- component, breadcrumbs -->
+		<div class="breadcrumbs">
+			  <div class="region region-breadcrumb">
+    <div id="block-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+  
+    
+        <nav class="breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+    <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+    <ol>
+          <li>
+                  <a href="/">Home</a>
+              </li>
+          <li>
+                  <a href="/news">News Center</a>
+              </li>
+          <li>
+                  ALCF Data Science Program seeks proposals for data and learning projects
+              </li>
+        </ol>
+  </nav>
+
+  </div>
+
+  </div>
+
+		</div>
+		
+		<a id="main-content" tabindex="-1"></a>	
+		<!-- component, page intro -->
+		<div class="page__intro">
+			<div class="page__intro-primary">
+				  <div class="region region-page-title">
+    <div id="block-alcf-page-title" class="block block-core block-page-title-block">
+  
+    
+      
+  <h1 class="page-title"><span property="dc:title" class="field field--name-title field--type-string field--label-hidden">ALCF Data Science Program seeks proposals for data and learning projects</span>
+</h1>
+
+
+  </div>
+
+  </div>
+	
+				  <div class="region region-page-meta">
+    <div class="views-element-container block block-views block-views-blockpage-meta-page-meta" id="block-page-eyebrow-meta">
+  
+    
+      <div><div class="view view-page-meta view-id-page_meta view-display-id-page_meta js-view-dom-id-d16f269a42b992044cc10f924eef75669a459e669634d7e36e00b5a1ade623a1">
+  
+    
+      
+      <div class="view-content">
+          <div class="eyebrow">announcements</div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+
+  </div>
+
+			</div>
+			  <div class="region region-intro-secondary">
+    <div class="views-element-container block block-views block-views-blocknews-meta-info-block" id="block-views-block-news-meta-info-block">
+  
+    
+      <div><div class="view view-news-meta-info view-id-news_meta_info view-display-id-block js-view-dom-id-81177e3991c63881f2fcc68b34a5843d231bad3a22726e254cab99d674aa5ded">
+  
+    
+      
+      <div class="view-content">
+          <div class="article__meta"><div class="meta-item">Author <span>ALCF staff</span></div><div class="meta-item">Published <span><time datetime="2020-11-02T12:00:00Z" class="datetime">11/02/2020</time>
+</span></div><div class="meta-item">Award <span>ADSP</span></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+<div class="views-element-container block block-views block-views-blockmain-image-block" id="block-views-block-main-image-block">
+  
+    
+      <div><div class="view view-main-image view-id-main_image view-display-id-block js-view-dom-id-23d38a2922235ca6644e7cd9a95cede8db48de9d2d5a309ba26e9e4ab84dc67f">
+  
+    
+      
+      <div class="view-content">
+      <div data-blazy="" class="slick blazy slick--view slick--view--main-image slick--view--main-image--block unslick slick--optionset--default slick--less" id="slick-views-main-image-block-1"><div class="slick__slide slide slide--0"><article class="media media--type-image media--view-mode-full"><div class="field field--name-field-media-image field--type-image field--label-hidden field__item"><img src="/sites/default/files/styles/965x543/public/2020-11/ADSP-2020-CFP-dates_1600x900.png?itok=vnWtRH3h" width="965" height="543" alt="ADSP Call for Proposals" typeof="foaf:Image" class="image-style-_65x543" /></div><div class="clearfix text-formatted field field--name-field-media-caption field--type-text-long field--label-hidden field__item"><p>The ALCF Data Science Program is seeking project proposals through <span lang="EN" xml:lang="EN" xml:lang="EN"><span><span>January 29, 2021.</span></span></span></p></div></article></div></div>
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+<div class="views-element-container block block-views block-views-blockintro-text-block" id="block-views-block-intro-text-block">
+  
+    
+      <div><div class="view view-intro-text view-id-intro_text view-display-id-block js-view-dom-id-319774526a6da9c97ebcaf98b297322dab71656dec4a924a79c58a726609bafa">
+  
+    
+      
+      <div class="view-content">
+          <div class="intro"><p>The ALCF Data Science Program supports data-intensive analysis and AI projects that require the scale of leadership-class systems.</p></div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+
+  </div>
+
+		</div> <!-- end .page__intro -->
+		
+		<div class="page__body">
+			
+						
+			  <div class="region region-content">
+    <div id="block-alcf-fusion-alcf2-system-main" class="block block-system block-system-main-block">
+  
+    
+      
+<article role="article" about="/news/alcf-data-science-program-seeks-proposals-data-and-learning-projects-1" typeof="sioc:Item foaf:Document" class="node node--type-article node--view-mode-full">
+
+  
+      <span property="dc:title" content="ALCF Data Science Program seeks proposals for data and learning projects" class="rdf-meta hidden"></span>
+
+
+  
+  <div class="node__content">
+    
+    <div class="paragraph paragraph--type--running-text paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-running-text field--type-text-long field--label-hidden field__item"><p>The Argonne Leadership Computing Facility (ALCF), a U.S. Department of Energy (DOE) Office of Science User Facility, is now accepting proposals for the <a href="https://www.alcf.anl.gov/science/adsp-allocation-program" target="_blank">ALCF Data Science Program (ADSP)</a>. Launched in 2016, the ADSP aims to build a community of researchers focused on employing data-intensive analysis and artificial intelligence (AI) at a scale that requires the ALCF’s leadership-class computing resources.</p>
+
+<p>Research supported by the ADSP includes the use of advanced statistical analysis, machine learning, and AI techniques to gain insights into datasets produced by experimental, simulation, or observational methods. Previous awards have covered a broad range of techniques and science domains, including the application of deep learning to data from the Nobel Prize-winning Laser Interferometer Gravitational-Wave Observatory (LIGO); exploring the neuron network inside mice brains through connectomics research; performing large, parallel data analytics on experimental results from the Large Hadron Collider; using AI to advance numerical simulations in materials science; and many others.</p>
+
+<p>The <a href="https://www.alcf.anl.gov/adsp-call-details" target="_blank">call for proposals</a> will be open from November 2, 2020, to January 29, 2021. The program allocates ALCF computing time and supporting resources to ADSP research teams. Submissions must justify the need for leadership-class systems and describe how the allocated resources will advance the state-of-the-art in the target science domain.</p>
+
+<p>ADSP proposals undergo a review process to evaluate potential impact, data and software readiness, diversity of science domains and algorithms, and other criteria. Awards are two years in duration with a review at the end of the first year. The selected projects will receive support from ALCF staff scientists and postdoctoral scholars. In addition, the ALCF provides training opportunities to familiarize teams with the facility’s hardware and software environments.</p>
+
+<p>To submit an application or for additional details about the proposal requirements, visit <a href="http://www.alcf.anl.gov/adsp-call-details" target="_blank">www.alcf.anl.gov/adsp-call-details</a>. Proposals will be accepted until the call deadline of 6 p.m. (CT) on January 29, 2021. Project selections are expected by March 1, 2021, and the awards will begin on April 1, 2021.</p>
+
+<p><strong>ALCF Simulation, Data, and Learning Workshop</strong></p>
+
+<p>To aid proposal preparation, the ALCF is hosting its annual Simulation, Data, and Learning Workshop on December 8-10, 2020. The virtual workshop will include hands-on sessions, tutorials, and guidance on improving the performance and productivity of simulation, data, and learning applications on ALCF systems.</p>
+
+<p>The deadlines to register for the workshop are November 13 for foreign nationals and November 20 for U.S. citizens. To register, visit: <a href="https://www.alcf.anl.gov/events/2020-alcf-simulation-data-and-learning-workshop" target="_blank">www.alcf.anl.gov/events/2020-alcf-simulation-data-and-learning-workshop</a></p></div>
+      
+      </div>
+
+
+  </div>
+
+</article>
+
+  </div>
+
+  </div>
+				
+		</div>
+		  <div class="region region-page-end">
+    <div id="block-bettersocialsharingbuttons" class="block block-better-social-sharing-buttons block-social-sharing-buttons-block">
+  
+    
+      
+
+    
+    
+<div style="display: none"><svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <symbol id="copy" viewBox="0 0 64 64">
+      <path d="M44.697 36.069l6.337-6.337c4.623-4.622 4.623-12.143 0-16.765-4.622-4.623-12.143-4.623-16.765 0l-9.145 9.145c-4.622 4.622-4.622 12.143 0 16.765 0.683 0.683 1.43 1.262 2.22 1.743l4.895-4.896c-0.933-0.223-1.817-0.694-2.543-1.419-2.101-2.101-2.101-5.52 0-7.62l9.145-9.145c2.101-2.101 5.52-2.101 7.62 0s2.101 5.52 0 7.62l-2.687 2.687c1.107 2.605 1.413 5.471 0.922 8.223z"></path>
+      <path d="M19.303 27.931l-6.337 6.337c-4.623 4.622-4.623 12.143 0 16.765 4.622 4.623 12.143 4.623 16.765 0l9.144-9.145c4.623-4.622 4.622-12.143 0-16.765-0.682-0.683-1.429-1.262-2.22-1.743l-4.895 4.896c0.932 0.224 1.816 0.693 2.543 1.419 2.101 2.101 2.101 5.519 0 7.621l-9.145 9.145c-2.101 2.101-5.52 2.101-7.62 0s-2.101-5.52 0-7.62l2.687-2.687c-1.108-2.605-1.413-5.471-0.922-8.223z"></path>
+    </symbol>
+    <symbol id="digg" viewBox="0 0 64 64">
+      <path d="M15.889 14.222v8.889h-8.889v17.777h13.889v-26.667h-5zM12 36.445v-8.889h3.889v8.889h-3.889zM22 23.111h5v17.777h-5v-17.777zM22 14.222h5v5.001h-5v-5.001zM42.556 23.111v0h-13.333v17.777h8.333v3.889h-8.333v5h13.333v-26.667zM34.222 36.445v-8.889h3.333v8.889h-3.333zM57 23.111h-13.333v17.777h8.889v3.889h-8.889v5h13.333v-26.667zM52.556 36.445h-3.889v-8.889h3.889v8.889z"></path>
+    </symbol>
+    <symbol id="email" viewBox="0 0 64 64">
+      <path d="M32 35.077l18.462-16h-36.924zM27.013 33.307l4.987 4.091 4.909-4.093 13.553 11.617h-36.924zM12.307 43.693v-23.386l13.539 11.693zM51.693 43.693v-23.386l-13.539 11.693z"></path>
+    </symbol>
+    <symbol id="evernote" viewBox="0 0 64 64">
+      <path d="M47.093 19.16c-0.296-1.572-1.239-2.346-2.090-2.651-0.919-0.329-2.783-0.671-5.125-0.944-1.884-0.221-4.099-0.202-5.437-0.162-0.161-1.090-0.932-2.087-1.794-2.431-2.299-0.917-5.853-0.696-6.765-0.443-0.724 0.201-1.527 0.613-1.974 1.247-0.3 0.424-0.493 0.967-0.494 1.725 0 0.429 0.012 1.441 0.023 2.339 0.011 0.901 0.023 1.708 0.023 1.713-0 0.802-0.656 1.455-1.469 1.456h-3.728c-0.796 0-1.403 0.133-1.867 0.342s-0.794 0.492-1.044 0.826c-0.498 0.662-0.585 1.481-0.583 2.315 0 0 0.008 0.682 0.173 2.002 0.138 1.021 1.255 8.158 2.317 10.328 0.411 0.845 0.685 1.196 1.494 1.568 1.801 0.764 5.915 1.615 7.843 1.859 1.924 0.244 3.133 0.757 3.852-0.74 0.003-0.004 0.145-0.372 0.339-0.913 0.625-1.878 0.712-3.544 0.712-4.75 0-0.123 0.181-0.128 0.181 0 0 0.851-0.164 3.864 2.131 4.672 0.906 0.319 2.785 0.602 4.695 0.825 1.727 0.197 2.98 0.871 2.98 5.264 0 2.672-0.566 3.039-3.525 3.039-2.399 0-3.313 0.062-3.313-1.828 0-1.527 1.524-1.367 2.653-1.367 0.504 0 0.138-0.372 0.138-1.314 0-0.937 0.591-1.479 0.032-1.493-3.905-0.107-6.201-0.005-6.201 4.837 0 4.396 1.696 5.212 7.238 5.212 4.345 0 5.876-0.141 7.67-5.66 0.355-1.090 1.213-4.415 1.733-9.998 0.328-3.531-0.31-14.186-0.816-16.875v0zM39.52 30.936c-0.537-0.019-1.053 0.015-1.534 0.092 0.135-1.084 0.587-2.416 2.187-2.361 1.771 0.061 2.020 1.721 2.026 2.845-0.747-0.331-1.672-0.541-2.679-0.576v0zM18.088 19.935h3.73c0.213 0 0.386-0.173 0.386-0.383 0-0.002-0.045-3.169-0.045-4.050v-0.011c0-0.723 0.153-1.355 0.42-1.883l0.127-0.237c-0.014 0.002-0.029 0.010-0.043 0.023l-7.243 7.122c-0.014 0.012-0.023 0.027-0.027 0.042 0.15-0.074 0.354-0.174 0.384-0.186 0.631-0.283 1.396-0.437 2.311-0.437v0z"></path>
+    </symbol>
+    <symbol id="facebook" viewBox="0 0 64 64">
+      <path d="M27.397 53.72v-19.723h-6.647v-8.052h6.647v-6.762c0-4.918 3.987-8.904 8.904-8.904h6.949v7.24h-4.972c-1.563 0-2.829 1.267-2.829 2.829v5.597h7.677l-1.061 8.052h-6.616v19.723z"></path>
+    </symbol>
+    <symbol id="linkedin" viewBox="0 0 64 64">
+      <path d="M14.537 25.873h7.435v23.896h-7.434v-23.896zM18.257 13.995c2.375 0 4.305 1.929 4.305 4.306s-1.929 4.307-4.305 4.307c-0.001 0-0.002 0-0.003 0-2.378 0-4.305-1.927-4.305-4.305 0-0.001 0-0.001 0-0.002v0c0-0 0-0.001 0-0.002 0-2.378 1.927-4.305 4.305-4.305 0.001 0 0.002 0 0.004 0h-0zM26.631 25.873h7.119v3.267h0.102c0.99-1.879 3.413-3.86 7.027-3.86 7.52 0 8.909 4.948 8.909 11.384v13.106h-7.425v-11.621c0-2.771-0.048-6.336-3.86-6.336-3.864 0-4.453 3.020-4.453 6.138v11.819h-7.418v-23.896z"></path>
+    </symbol>
+    <symbol id="messenger" viewBox="0 0 64 64">
+      <path d="M32 8.765c-12.703 0-23 9.63-23 21.508 0 6.758 3.332 12.787 8.544 16.73v8.231l7.849-4.354c1.972 0.571 4.238 0.9 6.58 0.9 0.009 0 0.019 0 0.028 0h-0.002c12.703 0 23-9.629 23-21.508s-10.297-21.508-23-21.508zM34.422 37.607l-5.949-6.18-11.456 6.335 12.56-13.328 5.949 6.18 11.455-6.335-12.559 13.329z"></path>
+    </symbol>
+    <symbol id="pinterest" viewBox="0 0 64 64">
+      <path d="M45.873 25.872c0 8.078-4.487 14.11-11.108 14.11-2.222 0-4.313-1.203-5.030-2.568 0 0-1.195 4.745-1.448 5.66-0.89 3.233-3.512 6.47-3.715 6.737-0.142 0.182-0.457 0.125-0.49-0.117-0.058-0.413-0.725-4.495 0.063-7.825 0.395-1.67 2.648-11.218 2.648-11.218s-0.657-1.315-0.657-3.258c0-3.052 1.77-5.329 3.97-5.329 1.872 0 2.778 1.405 2.778 3.090 0 1.884-1.198 4.698-1.818 7.306-0.517 2.185 1.095 3.965 3.25 3.965 3.9 0 6.525-5.010 6.525-10.945 0-4.511-3.037-7.89-8.565-7.89-6.242 0-10.135 4.657-10.135 9.86 0 1.793 0.53 3.058 1.358 4.036 0.38 0.45 0.435 0.632 0.297 1.149-0.102 0.38-0.325 1.29-0.422 1.653-0.135 0.52-0.558 0.708-1.030 0.515-2.875-1.175-4.215-4.325-4.215-7.865 0-5.849 4.933-12.86 14.713-12.86 7.862 0 13.032 5.686 13.032 11.793z"></path>
+    </symbol>
+    <symbol id="print" viewBox="0 0 64 64">
+      <path d="M14 22h38v-12c0-2.2-1.8-4-4-4h-30c-2.2 0-4 1.8-4 4v12zM12 54h-2c-3.4 0-6-2.6-6-6v-18c0-3.4 2.6-6 6-6h46c3.4 0 6 2.6 6 6v18c0 3.4-2.6 6-6 6h-2v-16h-42v16zM14 40h38v16c0 2.2-1.8 4-4 4h-30c-2.2 0-4-1.8-4-4v-16zM50 34c1.2 0 2-0.8 2-2s-0.8-2-2-2-2 0.8-2 2c0 1.2 0.8 2 2 2v0zM18 46v2h30v-2h-30zM18 52v2h30v-2h-30z"></path>
+    </symbol>
+    <symbol id="reddit" viewBox="0 0 64 64">
+      <path d="M29.37 25.258c-0.001-1.233-1.001-2.232-2.233-2.233h-0c-1.233 0.002-2.231 1.001-2.232 2.233v0c0.001 1.232 1 2.231 2.232 2.233h0c1.233-0.001 2.232-1 2.233-2.232v-0zM36.861 23.023c-1.233 0.001-2.233 1.001-2.234 2.234v0c0.001 1.233 1.001 2.232 2.234 2.233h0c1.233-0.001 2.233-1 2.235-2.233v-0c-0.001-1.234-1.001-2.233-2.235-2.235h-0zM36.33 30.723c-0.843 0.842-2.272 1.252-4.33 1.252-2.059 0-3.487-0.41-4.329-1.252-0.112-0.112-0.267-0.182-0.439-0.182-0.343 0-0.62 0.278-0.62 0.62 0 0.171 0.069 0.326 0.182 0.439v0c1.087 1.086 2.801 1.615 5.206 1.615s4.119-0.529 5.207-1.615c0.112-0.112 0.182-0.267 0.182-0.439 0-0.343-0.278-0.62-0.62-0.62-0.171 0-0.326 0.069-0.438 0.181v0z"></path>
+      <path d="M48.13 22.825c0-2.023-1.645-3.668-3.667-3.668-0.933 0-1.785 0.352-2.432 0.927-2.488-1.602-5.705-2.54-9.149-2.677l1.89-5.977 5.142 1.21c0.012 1.66 1.359 3.002 3.020 3.004h0c1.669-0.002 3.021-1.354 3.023-3.022v-0c-0.002-1.669-1.355-3.021-3.023-3.022h-0c-1.235 0.002-2.297 0.743-2.766 1.806l-0.008 0.019-5.664-1.334c-0.043-0.011-0.092-0.017-0.143-0.017-0.276 0-0.509 0.18-0.59 0.429l-0.001 0.004-2.178 6.887c-3.619 0.067-7.015 1.015-9.613 2.69-0.642-0.576-1.495-0.927-2.431-0.927-0.001 0-0.001 0-0.002 0h0c-2.022 0-3.668 1.645-3.668 3.668 0.001 1.332 0.712 2.498 1.775 3.139l0.016 0.009c-0.055 0.343-0.083 0.692-0.083 1.042 0 2.622 1.535 5.068 4.324 6.889 0.887 0.579 1.87 1.071 2.923 1.473-2.056 0.98-3.511 3.366-3.511 6.148 0 3.142 1.858 5.778 4.34 6.455 0.194 0.605 0.409 1.181 0.644 1.723-0.103-0.008-0.224-0.014-0.345-0.014h-0.001c-2.232 0-4.047 1.525-4.047 3.398 0 0.28 0.049 0.57 0.151 0.885 0.083 0.251 0.316 0.429 0.59 0.429 0 0 0 0 0 0h18.617c0.272 0 0.512-0.176 0.593-0.435 0.101-0.325 0.148-0.603 0.148-0.879 0-1.873-1.816-3.398-4.050-3.398-0.084 0-0.166 0.002-0.248 0.007 0.234-0.54 0.449-1.114 0.641-1.715 2.483-0.676 4.34-3.313 4.34-6.455 0-2.782-1.456-5.168-3.511-6.148 1.053-0.402 2.036-0.894 2.922-1.472 2.788-1.82 4.325-4.267 4.325-6.889 0-0.351-0.029-0.698-0.083-1.042 1.079-0.651 1.789-1.817 1.79-3.148v-0zM44.717 12.623c0 0.982-0.8 1.781-1.783 1.781-0.983-0.001-1.78-0.798-1.78-1.781v-0c0.001-0.983 0.797-1.78 1.78-1.782h0c0.983 0 1.783 0.8 1.783 1.782zM40.763 53.086c0 0.024-0.001 0.048-0.002 0.074h-5.255c0.559-0.577 1.072-1.288 1.533-2.11 0.275-0.077 0.59-0.121 0.915-0.121h0c1.549 0 2.809 0.968 2.809 2.157zM25.951 50.928c0.363 0 0.709 0.053 1.026 0.15 0.456 0.81 0.965 1.511 1.516 2.081h-5.347c-0.002-0.022-0.002-0.047-0.003-0.073v-0c0-1.19 1.259-2.157 2.807-2.157zM33.535 53.16h-3.070c-2.758-1.578-4.745-7.083-4.745-13.203 0-1.446 0.111-2.847 0.314-4.168 1.849 0.559 3.875 0.854 5.967 0.854s4.118-0.296 5.969-0.855c0.199 1.245 0.313 2.681 0.313 4.144 0 0.008 0 0.017 0 0.025v-0.001c0 6.12-1.987 11.625-4.746 13.203zM24.628 36.941c-0.096 0.903-0.15 1.951-0.15 3.012 0 0.001 0 0.002 0 0.003v-0c0 2.325 0.27 4.55 0.756 6.537-1.573-0.813-2.681-2.733-2.681-4.968 0-1.935 0.831-3.634 2.075-4.583zM38.764 46.493c0.487-1.987 0.757-4.212 0.757-6.538 0-1.036-0.053-2.043-0.15-3.015 1.243 0.949 2.075 2.648 2.075 4.584 0 2.236-1.108 4.157-2.681 4.969zM32 35.403c-7.268 0-13.181-3.762-13.181-8.387s5.913-8.387 13.181-8.387 13.181 3.762 13.181 8.386c0 4.625-5.913 8.388-13.181 8.388zM19.538 20.398c0.514 0 0.991 0.162 1.384 0.435-1.416 1.128-2.41 2.444-2.928 3.861-0.541-0.447-0.883-1.118-0.883-1.869 0-0 0-0 0-0v0c0.002-1.34 1.087-2.425 2.426-2.427h0zM43.078 20.833c0.385-0.272 0.864-0.436 1.381-0.436 0.001 0 0.002 0 0.004 0h-0c1.34 0.002 2.425 1.087 2.426 2.427v0c0 0.752-0.345 1.424-0.883 1.869-0.518-1.418-1.511-2.732-2.928-3.86z"></path>
+    </symbol>
+    <symbol id="slashdot" viewBox="0 0 64 64">
+      <path d="M11.722 56.602l22.084-49.602h9.561l-22.078 49.602h-9.567zM52.278 49.099c0-4.361-3.552-7.901-7.93-7.901-4.382 0-7.93 3.54-7.93 7.901 0 4.366 3.548 7.901 7.93 7.901 4.378 0 7.93-3.535 7.93-7.901z"></path>
+    </symbol>
+    <symbol id="tumblr" viewBox="0 0 64 64">
+      <path d="M36.813 51.2c3.843 0 7.65-1.368 8.909-3.025l0.252-0.332-2.382-7.060c-0.022-0.064-0.082-0.109-0.152-0.109-0 0-0.001 0-0.001 0h-5.32c-0.001 0-0.002 0-0.003 0-0.072 0-0.133-0.049-0.152-0.115l-0-0.001c-0.062-0.235-0.099-0.523-0.105-0.879v-8.633c0-0.089 0.072-0.16 0.161-0.16h6.26c0.089 0 0.161-0.072 0.161-0.161v0-8.833c-0-0.089-0.072-0.16-0.161-0.16 0 0 0 0 0 0h-6.233c0 0 0 0 0 0-0.088 0-0.16-0.072-0.16-0.16 0-0 0-0 0-0v0-8.61c-0.001-0.088-0.072-0.16-0.161-0.16-0 0-0 0-0.001 0v0h-10.931c-0.942 0.016-1.712 0.73-1.815 1.647l-0.001 0.008c-0.546 4.443-2.584 7.11-6.415 8.39l-0.427 0.142c-0.064 0.022-0.11 0.082-0.11 0.152v7.585c0 0.088 0.073 0.16 0.161 0.16h3.912v9.341c0 7.457 5.165 10.975 14.713 10.975zM44.134 47.596c-1.199 1.154-3.66 2.010-6.019 2.050-0.089 0.002-0.176 0.002-0.264 0.002h-0.001c-7.758-0.001-9.828-5.922-9.828-9.422v-10.752c0-0.089-0.072-0.16-0.16-0.16v0h-3.752c-0 0-0 0-0 0-0.088 0-0.16-0.072-0.16-0.16 0-0 0-0 0-0v0-4.898c0-0.066 0.041-0.124 0.102-0.148 4.009-1.561 6.248-4.662 6.838-9.459 0.032-0.267 0.253-0.274 0.255-0.274h5.008c0.089 0 0.16 0.072 0.16 0.161v8.61c0 0 0 0 0 0 0 0.088 0.072 0.16 0.16 0.16 0 0 0 0 0.001 0v0h6.233c0 0 0 0 0 0 0.088 0 0.16 0.072 0.16 0.16 0 0 0 0.001 0 0.001v-0 5.688c0 0 0 0 0 0 0 0.088-0.072 0.16-0.16 0.16 0 0 0 0 0 0h-6.26c-0 0-0.001 0-0.001 0-0.088 0-0.16 0.072-0.16 0.16 0 0 0 0 0 0v0 10.22c0.038 2.301 1.151 3.468 3.31 3.468 0.87 0 1.867-0.203 2.777-0.55 0.017-0.007 0.037-0.011 0.058-0.011 0.069 0 0.128 0.045 0.15 0.107l0 0.001 1.593 4.72c0.020 0.060 0.006 0.126-0.040 0.169z"></path>
+    </symbol>
+    <symbol id="twitter" viewBox="0 0 64 64">
+      <path d="M49.92 20.885c-1.23 0.56-2.656 0.968-4.152 1.15l-0.071 0.007c1.52-0.921 2.663-2.335 3.218-4.016l0.015-0.052c-1.344 0.812-2.908 1.431-4.575 1.768l-0.094 0.016c-1.343-1.431-3.247-2.322-5.358-2.322-0.003 0-0.006 0-0.009 0h0.001c-4.061 0-7.353 3.292-7.353 7.352 0 0.576 0.065 1.138 0.19 1.676-6.111-0.307-11.529-3.234-15.155-7.683-0.626 1.056-0.996 2.328-0.996 3.686 0 0.004 0 0.008 0 0.012v-0.001c0 0.002 0 0.004 0 0.006 0 2.539 1.287 4.777 3.245 6.098l0.026 0.017c-1.228-0.040-2.37-0.376-3.367-0.939l0.037 0.019c-0.001 0.031-0.001 0.061-0.001 0.093 0 3.563 2.535 6.534 5.899 7.21-0.579 0.164-1.245 0.258-1.933 0.258-0.491 0-0.971-0.048-1.435-0.14l0.047 0.008c0.936 2.921 3.651 5.047 6.869 5.106-2.482 1.962-5.657 3.148-9.108 3.148-0.008 0-0.017 0-0.025 0h0.001c-0.002 0-0.004 0-0.006 0-0.616 0-1.223-0.037-1.82-0.11l0.072 0.007c3.18 2.071 7.071 3.303 11.25 3.303 0.008 0 0.015 0 0.023 0h-0.001c13.525 0 20.921-11.204 20.921-20.921 0-0.319-0.008-0.636-0.022-0.951 1.445-1.052 2.662-2.313 3.635-3.753l0.034-0.053z"></path>
+    </symbol>
+    <symbol id="whatsapp" viewBox="0 0 64 64">
+      <path d="M14.080 50.007l2.532-9.248c-1.498-2.553-2.383-5.623-2.383-8.899 0-0.008 0-0.015 0-0.023v0.001c0.004-9.84 8.009-17.845 17.845-17.845 4.774 0.002 9.255 1.861 12.623 5.234 3.37 3.372 5.224 7.856 5.222 12.625-0.004 9.839-8.010 17.845-17.845 17.845 0 0 0.001 0 0 0h-0.008c-3.126-0-6.065-0.805-8.619-2.219l0.091 0.046-9.46 2.482zM23.978 44.294l0.542 0.322c2.158 1.299 4.763 2.068 7.548 2.068 0 0 0.001 0 0.001 0h0.006c8.175 0 14.829-6.654 14.832-14.832 0.002-3.963-1.54-7.689-4.34-10.493s-6.525-4.348-10.486-4.35c-8.181 0-14.835 6.654-14.838 14.831 0 0.007 0 0.015 0 0.023 0 2.918 0.845 5.638 2.303 7.93l-0.036-0.060 0.353 0.562-1.498 5.473 5.613-1.472z"></path>
+      <path d="M41.065 36.095c-0.111-0.186-0.408-0.297-0.854-0.521-0.447-0.223-2.639-1.301-3.047-1.45s-0.706-0.224-1.004 0.222c-0.297 0.447-1.151 1.452-1.411 1.748s-0.52 0.335-0.967 0.112c-0.446-0.223-1.882-0.694-3.585-2.213-1.326-1.182-2.221-2.642-2.48-3.088s-0.028-0.688 0.195-0.91c0.201-0.2 0.446-0.521 0.669-0.781s0.297-0.447 0.446-0.744c0.148-0.297 0.074-0.558-0.038-0.781s-1.003-2.418-1.375-3.311c-0.361-0.869-0.73-0.752-1.003-0.765-0.229-0.010-0.498-0.016-0.768-0.016-0.031 0-0.061 0-0.092 0h0.005c-0.297 0-0.78 0.112-1.189 0.558s-1.561 1.525-1.561 3.72c0 2.195 1.598 4.315 1.82 4.613s3.144 4.801 7.617 6.733c0.656 0.296 1.498 0.616 2.361 0.89l0.181 0.050c1.068 0.339 2.040 0.291 2.808 0.176 0.857-0.129 2.638-1.078 3.010-2.12s0.371-1.935 0.26-2.121z"></path>
+    </symbol>
+  </defs>
+</svg>
+</div>
+
+<div class="social-sharing-buttons">
+    <!-- Facebook share button -->
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.alcf.anl.gov/news/alcf-data-science-program-seeks-proposals-data-and-learning-projects-1&title=ALCF Data Science Program seeks proposals for data and learning projects" target="_blank" title="Share to Facebook" aria-label="Share to Facebook" class="social-sharing-buttons__button" rel="noopener">
+            <svg width=30px height=30px style=border-radius:3px;>
+                <use href="/modules/contrib/better_social_sharing_buttons/assets/dist/sprites/social-icons--no-color.svg#facebook" />
+            </svg>
+        </a>
+    
+    <!-- Twitter share button -->
+            <a href="http://twitter.com/intent/tweet?text=ALCF Data Science Program seeks proposals for data and learning projects+https://www.alcf.anl.gov/news/alcf-data-science-program-seeks-proposals-data-and-learning-projects-1" target="_blank" title="Share to Twitter" aria-label="Share to Twitter" class="social-sharing-buttons__button" rel="noopener">
+            <svg width=30px height=30px style=border-radius:3px;>
+                <use href="/modules/contrib/better_social_sharing_buttons/assets/dist/sprites/social-icons--no-color.svg#twitter" />
+            </svg>
+        </a>
+    
+    <!-- WhatsApp share button -->
+    
+    <!-- Facebook Messenger share button -->
+    
+    <!-- Pinterest share button -->
+    
+    <!-- Linkedin share button -->
+    
+    <!-- Digg share button -->
+    
+    <!-- StumbleUpon share button -->
+    
+    <!-- Slashdot share button -->
+    
+    <!-- Tumblr share button -->
+    
+    <!-- Reddit share button -->
+    
+    <!-- Evernote share button -->
+    
+    <!-- Email share button -->
+    
+    <!-- Copy link share button -->
+    
+  <!-- Print share button -->
+  </div>
+
+  </div>
+<div class="views-element-container block block-views block-views-blockcontent-terms-block" id="block-views-block-content-terms-block">
+  
+    
+      <div><div class="view view-content-terms view-id-content_terms view-display-id-block js-view-dom-id-6bfce417bfe1bab460c684d54ba8ff6f8c1562850d9b800ea623cab5733ccd39">
+  
+    
+      
+      <div class="view-content">
+          <div class="taxonomies"><div class="views-field views-field-field-program"><span class="views-label views-label-field-program">Allocations</span><div class="field-content"><div class="item-list"><ul><li><a href="/allocation-programs/adsp" hreflang="en">ADSP</a></li></ul></div></div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+
+  </div>
+		
+	
+	</div> <!-- end .grid -->
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+<!-- --------------------------------------------------------------------- -->
+
+<!-- component: footer -->
+<footer class="footer">
+<div class="grid">
+
+	<div class="footer__info">
+
+		<div class="footer__info-title">
+			<div class="footer__info-ALCF">
+				<p>ALCF</p>
+			</div>
+
+			<div class="footer__info-DOE">
+				<h2>
+					A DOE Office of Science User Facility
+				</h2>
+			</div>
+		</div>
+
+		<div class="footer__info-contact">
+			<p>
+				Argonne National Laboratory <br>
+				9700 South Cass Avenue <br>
+				Building 240 <br>
+				Argonne, IL 60439 <br>
+				<a href="mailto:media@alcf.anl.gov">Contact</a>
+			</p>
+		</div>
+	</div>
+
+	<div class="footer__follow">
+		<div class="footer__follow-options">
+			<div class="footer__follow-email-cta">
+				<p>
+					Sign up for our monthly newsletter and notifications for available opportunities.
+				</p>
+			</div>
+
+			<form action="https://anl.us6.list-manage1.com/subscribe/post?u=7d7e32ea6092c85ad51b75087&amp;id=61c971d0da" class="footer__follow-email-input" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+			    <label for="mce-EMAIL">Email Address</label>
+				<input class="email" id="mce-EMAIL" name="EMAIL" placeholder="email address" required="" type="email" value="">
+				<input class="s_button" name="submit" type="submit" value="Submit">
+			</form>
+
+
+
+			<div class="footer__follow-service-cta">	
+				<p>
+					Follow ALCF on social media 
+					<span><a href="https://www.facebook.com/pages/Argonne-Leadership-Computing-Facility/33428102469"> <i class="icon-facebook">Facebook</i> </a></span>
+					<span><a href="https://twitter.com/argonne_lcf"> <i class="icon-twitter">Twitter</i> </a></span>
+					<span><a href="https://www.linkedin.com/company/argonne-leadership-computing-facility/"> <i class="icon-linkedin">LinkedIn</i> </a></span>
+					<span><a href="https://www.youtube.com/channel/UCFJAl2p722-FJ-ojxxYyrrw"> <i class="icon-youtube">YouTube</i> </a></span>
+					<span><a href="https://www.flickr.com/photos/argonne/sets/72157629759245692/"> <i class="icon-flickr2">Flickr</i> </a></span>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer__small-print">
+		<div class="footer__small-print-login">
+			<a href="/saml_login">Internal Admin</a>
+		</div>
+
+		<div class="footer__small-print-info">
+			<div class="footer__small-print-copyright">
+				<p>
+					&copy; 2020 Argonne Leadership Computing Facility
+				</p>
+			</div>
+
+			<div class="footer__small-print-parents">
+				<a href="https://www.energy.gov" target="_blank">
+					<img src="/themes/alcf/img/DOE_ko_300.png" alt="Department of Energy">
+				</a>
+				<a href="https://www.anl.gov" target="_blank">
+					<img src="/themes/alcf/img/ANL_ko_300.png" alt="Argonne National Laboratory">
+				</a>
+			</div>
+		</div>
+	</div>
+
+</div>  <!-- end .grid -->
+
+<!-- empty script is a weird hack to circumvent but where transitions fire on load -->
+<script> </script>
+</footer>
+
+
+  </div>
+
+    <button data-ultimenu-button="#ultimenu-main" class="button button--ultimenu" aria-label="Menu" value="Menu"><span class="bars">Menu</span></button>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/41346","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"ajax_loader\/ajax_loader.throbber,alcf\/global-scripts,alcf\/global-styling,better_social_sharing_buttons\/styling,blazy\/load,classy\/base,classy\/messages,classy\/node,core\/html5shiv,core\/normalize,google_analytics\/google_analytics,paragraphs\/drupal.paragraphs.unpublished,slick\/slick.load,system\/base,ultimenu\/extras,ultimenu\/hamburger,ultimenu\/offcanvas.pushdown,views\/views.module","theme":"alcf","theme_token":null},"ajaxTrustedUrl":[],"ajaxLoader":{"markup":"\u003Cdiv class=\u0022ajax-throbber sk-three-bounce\u0022\u003E\n              \u003Cdiv class=\u0022sk-child sk-bounce1\u0022\u003E\u003C\/div\u003E\n              \u003Cdiv class=\u0022sk-child sk-bounce2\u0022\u003E\u003C\/div\u003E\n              \u003Cdiv class=\u0022sk-child sk-bounce3\u0022\u003E\u003C\/div\u003E\n            \u003C\/div\u003E","hideAjaxMessage":false,"alwaysFullscreen":false,"throbberPosition":".region-content"},"google_analytics":{"trackOutbound":true,"trackMailto":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"blazy":{"loadInvisible":false,"offset":100,"saveViewportOffsetDelay":50,"validateDelay":25},"blazyIo":{"enabled":false,"disconnect":false,"rootMargin":"0px","threshold":[0]},"slick":{"accessibility":true,"adaptiveHeight":false,"autoplay":false,"autoplaySpeed":3000,"pauseOnHover":true,"pauseOnDotsHover":false,"arrows":true,"downArrow":false,"downArrowTarget":"","downArrowOffset":0,"centerMode":false,"centerPadding":"50px","dots":false,"dotsClass":"slick-dots","draggable":true,"fade":false,"focusOnSelect":false,"infinite":true,"initialSlide":0,"lazyLoad":"ondemand","mouseWheel":false,"randomize":false,"rtl":false,"rows":1,"slidesPerRow":1,"slide":"","slidesToShow":1,"slidesToScroll":1,"speed":500,"swipe":true,"swipeToSlide":false,"edgeFriction":0.34999999999999998,"touchMove":true,"touchThreshold":5,"useCSS":true,"cssEase":"ease","cssEaseBezier":"","cssEaseOverride":"","useTransform":true,"easing":"linear","variableWidth":false,"vertical":false,"verticalSwiping":false,"waitForAnimate":true,"pauseOnFocus":true},"ultimenu":{"canvasOff":".region-primary-menu","canvasOn":".header__nav-mobile"},"user":{"uid":0,"permissionsHash":"70fc6248580afce8e199d4bfba31b1b2b7857578ef8d3820e173139a74da8dd7"}}</script>
+<script src="/sites/default/files/js/js_RI4tt0qFHz-Vc-1TsySnuSljFQmovu-tLsxhLqwCI2E.js"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e5705e4eea","applicationID":"467445125","transactionName":"b1YBYURSXRcEB00NDVYcIlZCWlwKSiBLERJZXz9bWVdWOCYLVxAQV18PUERvfQsBAW8NB09wDFtCQVwICQFLSVxOWgZC","queueTime":0,"applicationTime":1177,"atts":"QxECFwxIThk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
